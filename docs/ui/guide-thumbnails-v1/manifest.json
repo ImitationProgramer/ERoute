@@ -1,0 +1,117 @@
+{
+  "schemaVersion": 1,
+  "items": [
+    {
+      "id": "report-119",
+      "asset": "assets/illustrations/guides/report-119.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 8032,
+      "sha256": "98ae0b510830a2a95dbc099c69839861be7ec895186f02952e2030f3857e6d57",
+      "original": "docs/ui/guide-thumbnails-v1/originals/report-119.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "6ace2b00e6d59eefe2ea3da8426bfc43ce655f8ac3a431e8498bf85a76455932",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "explain-location",
+      "asset": "assets/illustrations/guides/explain-location.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 6218,
+      "sha256": "97c81df10eebc6ed24c46328f03f1922426c3f04648b866b78a80f345edbe172",
+      "original": "docs/ui/guide-thumbnails-v1/originals/explain-location.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "5d166910765bc2f26dc146b37fb4ec29744d32e72450c3252371075599980728",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "before-ambulance",
+      "asset": "assets/illustrations/guides/before-ambulance.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 9950,
+      "sha256": "7d23d95fdf05ce5693601fd17c71f2c2e7ca41d8cc0423f96974f7a813f72d66",
+      "original": "docs/ui/guide-thumbnails-v1/originals/before-ambulance.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "83e36371956e1172519a8c6bc1cf279e328f7379aba6b0a3c49af50918c53531",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "adult-cpr",
+      "asset": "assets/illustrations/guides/adult-cpr.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 7938,
+      "sha256": "7f1c008a1c9e1a0fe66e472d00e28e0ce425d9a9b786522a0f3f2f5cd52eb000",
+      "original": "docs/ui/guide-thumbnails-v1/originals/adult-cpr.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "ce368a642c1701800bc6d5fa33db531d2b6b13d6844fe0ba0dee273fac92ef0d",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "adult-aed",
+      "asset": "assets/illustrations/guides/adult-aed.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 6842,
+      "sha256": "54907b67739305103d83e7c0d106e3c450ccbc6cb93839ec542a2a4b5d03f8c3",
+      "original": "docs/ui/guide-thumbnails-v1/originals/adult-aed.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "67ba9981289df062f88396f8ed4e378e74a3528b5c1c4e32004a6eee573380cd",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "external-bleeding",
+      "asset": "assets/illustrations/guides/external-bleeding.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 12158,
+      "sha256": "0b98880a8e297842ae69dbb49756de8598cc6138ef2ae7166b84cdd460ff94c3",
+      "original": "docs/ui/guide-thumbnails-v1/originals/external-bleeding.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "bbc616258dc8424551697ccf65a097730cf30f6e0692a2dfd3ce031dc828e94f",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    },
+    {
+      "id": "thermal-burn",
+      "asset": "assets/illustrations/guides/thermal-burn.webp",
+      "width": 384,
+      "height": 240,
+      "bytes": 5790,
+      "sha256": "b97d7851bd30fd26fa29c316093e3fd4cbc3de93494a5865ff4f89847cc731a5",
+      "original": "docs/ui/guide-thumbnails-v1/originals/thermal-burn.png",
+      "originalSize": [
+        1586,
+        992
+      ],
+      "originalSha256": "5d3264bbe82de5b256104c3a01c8c50171e134472ab7486bb3bc7049bbe86fe5",
+      "method": "Built-in image_gen; full-frame resize with Pillow LANCZOS, WebP quality 88; raster original",
+      "rights": "New generated decorative illustration; no external medical imagery; no medical review or exclusive-rights guarantee"
+    }
+  ]
+}

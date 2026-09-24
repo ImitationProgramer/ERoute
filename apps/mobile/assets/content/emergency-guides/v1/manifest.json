@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "contentVersion": "1.0.0",
+  "files": [
+    "emergency-actions.json",
+    "first-aid.json"
+  ],
+  "expectedCounts": {
+    "EMERGENCY_ACTION": 4,
+    "FIRST_AID": 13
+  },
+  "commonDisclaimer": "앱은 일반 응급처치 안내입니다. 실제 긴급 상황에서는 119 안내를 우선 따르세요. 상태가 심각하거나 판단이 어려우면 119에 도움을 요청하세요."
+}

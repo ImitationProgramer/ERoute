@@ -1,0 +1,948 @@
+{
+  "schemaVersion": 1,
+  "datasetVersion": "eroute-disease-departments-v0.1",
+  "status": "DRAFT",
+  "publicMapApproved": false,
+  "purpose": "HOSPITAL_DEPARTMENT_PERSONALIZATION",
+  "purposeVersion": "map-disease-use-v1",
+  "diseases": [
+    {
+      "id": "D001",
+      "rawName": "천식",
+      "canonicalName": "천식",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D002",
+      "rawName": "만성폐쇄성폐질환",
+      "canonicalName": "만성폐쇄성폐질환",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D003",
+      "rawName": "고혈압",
+      "canonicalName": "고혈압",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D004",
+      "rawName": "심방세동",
+      "canonicalName": "심방세동",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D005",
+      "rawName": "심부전",
+      "canonicalName": "심부전",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D006",
+      "rawName": "협심증",
+      "canonicalName": "협심증",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D007",
+      "rawName": "갑상선기능항진증",
+      "canonicalName": "갑상선기능항진증",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D008",
+      "rawName": "갑상선기능저하증",
+      "canonicalName": "갑상선기능저하증",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D009",
+      "rawName": "만성 신부전",
+      "canonicalName": "만성 신부전",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D010",
+      "rawName": "뇌전증",
+      "canonicalName": "뇌전증",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D011",
+      "rawName": "파킨슨병",
+      "canonicalName": "파킨슨병",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D012",
+      "rawName": "아토피성 피부염",
+      "canonicalName": "아토피성 피부염",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D013",
+      "rawName": "두드러기",
+      "canonicalName": "두드러기",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D014",
+      "rawName": "간경변증",
+      "canonicalName": "간경변증",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D015",
+      "rawName": "크론병",
+      "canonicalName": "크론병",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "D016",
+      "rawName": "궤양성 대장염",
+      "canonicalName": "궤양성 대장염",
+      "englishName": null,
+      "active": true,
+      "version": 1
+    }
+  ],
+  "aliases": [
+    {
+      "diseaseId": "D001",
+      "alias": "기관지천식",
+      "normalizedAlias": "기관지천식"
+    },
+    {
+      "diseaseId": "D001",
+      "alias": "asthma",
+      "normalizedAlias": "asthma"
+    },
+    {
+      "diseaseId": "D002",
+      "alias": "COPD",
+      "normalizedAlias": "copd"
+    },
+    {
+      "diseaseId": "D002",
+      "alias": "만성 폐쇄성 폐질환",
+      "normalizedAlias": "만성 폐쇄성 폐질환"
+    },
+    {
+      "diseaseId": "D003",
+      "alias": "본태성고혈압",
+      "normalizedAlias": "본태성고혈압"
+    },
+    {
+      "diseaseId": "D003",
+      "alias": "hypertension",
+      "normalizedAlias": "hypertension"
+    },
+    {
+      "diseaseId": "D004",
+      "alias": "심방 세동",
+      "normalizedAlias": "심방 세동"
+    },
+    {
+      "diseaseId": "D004",
+      "alias": "AF",
+      "normalizedAlias": "af"
+    },
+    {
+      "diseaseId": "D004",
+      "alias": "atrial fibrillation",
+      "normalizedAlias": "atrial fibrillation"
+    },
+    {
+      "diseaseId": "D005",
+      "alias": "heart failure",
+      "normalizedAlias": "heart failure"
+    },
+    {
+      "diseaseId": "D006",
+      "alias": "angina",
+      "normalizedAlias": "angina"
+    },
+    {
+      "diseaseId": "D006",
+      "alias": "angina pectoris",
+      "normalizedAlias": "angina pectoris"
+    },
+    {
+      "diseaseId": "D007",
+      "alias": "갑상선 기능 항진증",
+      "normalizedAlias": "갑상선 기능 항진증"
+    },
+    {
+      "diseaseId": "D007",
+      "alias": "hyperthyroidism",
+      "normalizedAlias": "hyperthyroidism"
+    },
+    {
+      "diseaseId": "D008",
+      "alias": "갑상선 기능 저하증",
+      "normalizedAlias": "갑상선 기능 저하증"
+    },
+    {
+      "diseaseId": "D008",
+      "alias": "hypothyroidism",
+      "normalizedAlias": "hypothyroidism"
+    },
+    {
+      "diseaseId": "D009",
+      "alias": "만성신부전",
+      "normalizedAlias": "만성신부전"
+    },
+    {
+      "diseaseId": "D009",
+      "alias": "chronic renal failure",
+      "normalizedAlias": "chronic renal failure"
+    },
+    {
+      "diseaseId": "D010",
+      "alias": "간질",
+      "normalizedAlias": "간질"
+    },
+    {
+      "diseaseId": "D010",
+      "alias": "epilepsy",
+      "normalizedAlias": "epilepsy"
+    },
+    {
+      "diseaseId": "D011",
+      "alias": "Parkinson's disease",
+      "normalizedAlias": "parkinson's disease"
+    },
+    {
+      "diseaseId": "D012",
+      "alias": "아토피",
+      "normalizedAlias": "아토피"
+    },
+    {
+      "diseaseId": "D012",
+      "alias": "아토피피부염",
+      "normalizedAlias": "아토피피부염"
+    },
+    {
+      "diseaseId": "D013",
+      "alias": "urticaria",
+      "normalizedAlias": "urticaria"
+    },
+    {
+      "diseaseId": "D014",
+      "alias": "간경변",
+      "normalizedAlias": "간경변"
+    },
+    {
+      "diseaseId": "D014",
+      "alias": "간경화",
+      "normalizedAlias": "간경화"
+    },
+    {
+      "diseaseId": "D014",
+      "alias": "liver cirrhosis",
+      "normalizedAlias": "liver cirrhosis"
+    },
+    {
+      "diseaseId": "D015",
+      "alias": "Crohn병",
+      "normalizedAlias": "crohn병"
+    },
+    {
+      "diseaseId": "D015",
+      "alias": "Crohn's disease",
+      "normalizedAlias": "crohn's disease"
+    },
+    {
+      "diseaseId": "D016",
+      "alias": "ulcerative colitis",
+      "normalizedAlias": "ulcerative colitis"
+    },
+    {
+      "diseaseId": "D016",
+      "alias": "UC",
+      "normalizedAlias": "uc"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEP001",
+      "canonicalName": "호흡기내과"
+    },
+    {
+      "id": "DEP002",
+      "canonicalName": "알레르기내과"
+    },
+    {
+      "id": "DEP003",
+      "canonicalName": "가정의학과"
+    },
+    {
+      "id": "DEP004",
+      "canonicalName": "심장내과"
+    },
+    {
+      "id": "DEP005",
+      "canonicalName": "심장외과"
+    },
+    {
+      "id": "DEP006",
+      "canonicalName": "내분비내과"
+    },
+    {
+      "id": "DEP007",
+      "canonicalName": "내분비외과"
+    },
+    {
+      "id": "DEP008",
+      "canonicalName": "신장내과"
+    },
+    {
+      "id": "DEP009",
+      "canonicalName": "신·췌장이식외과"
+    },
+    {
+      "id": "DEP010",
+      "canonicalName": "소아청소년심장과"
+    },
+    {
+      "id": "DEP011",
+      "canonicalName": "신경과"
+    },
+    {
+      "id": "DEP012",
+      "canonicalName": "신경외과"
+    },
+    {
+      "id": "DEP013",
+      "canonicalName": "피부과"
+    },
+    {
+      "id": "DEP014",
+      "canonicalName": "소화기내과"
+    },
+    {
+      "id": "DEP015",
+      "canonicalName": "간이식·간담도외과"
+    },
+    {
+      "id": "DEP016",
+      "canonicalName": "대장항문외과"
+    },
+    {
+      "id": "DEP017",
+      "canonicalName": "소아소화기영양과"
+    }
+  ],
+  "mappings": [
+    {
+      "id": "D001-DEP001",
+      "diseaseId": "D001",
+      "departmentId": "DEP001",
+      "rawDepartmentName": "호흡기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D001-DEP002",
+      "diseaseId": "D001",
+      "departmentId": "DEP002",
+      "rawDepartmentName": "알레르기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D002-DEP001",
+      "diseaseId": "D002",
+      "departmentId": "DEP001",
+      "rawDepartmentName": "호흡기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D002-DEP002",
+      "diseaseId": "D002",
+      "departmentId": "DEP002",
+      "rawDepartmentName": "알레르기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D003-DEP003",
+      "diseaseId": "D003",
+      "departmentId": "DEP003",
+      "rawDepartmentName": "가정의학과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D003-DEP004",
+      "diseaseId": "D003",
+      "departmentId": "DEP004",
+      "rawDepartmentName": "심장내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D004-DEP004",
+      "diseaseId": "D004",
+      "departmentId": "DEP004",
+      "rawDepartmentName": "심장내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D005-DEP004",
+      "diseaseId": "D005",
+      "departmentId": "DEP004",
+      "rawDepartmentName": "심장내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D005-DEP005",
+      "diseaseId": "D005",
+      "departmentId": "DEP005",
+      "rawDepartmentName": "심장외과",
+      "relationType": "CONTEXTUAL",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D006-DEP004",
+      "diseaseId": "D006",
+      "departmentId": "DEP004",
+      "rawDepartmentName": "심장내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D007-DEP003",
+      "diseaseId": "D007",
+      "departmentId": "DEP003",
+      "rawDepartmentName": "가정의학과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D007-DEP006",
+      "diseaseId": "D007",
+      "departmentId": "DEP006",
+      "rawDepartmentName": "내분비내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D007-DEP007",
+      "diseaseId": "D007",
+      "departmentId": "DEP007",
+      "rawDepartmentName": "내분비외과",
+      "relationType": "CONTEXTUAL",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D008-DEP006",
+      "diseaseId": "D008",
+      "departmentId": "DEP006",
+      "rawDepartmentName": "내분비내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D009-DEP008",
+      "diseaseId": "D009",
+      "departmentId": "DEP008",
+      "rawDepartmentName": "신장내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D009-DEP009",
+      "diseaseId": "D009",
+      "departmentId": "DEP009",
+      "rawDepartmentName": "신·췌장이식외과",
+      "relationType": "CONTEXTUAL",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D009-DEP010",
+      "diseaseId": "D009",
+      "departmentId": "DEP010",
+      "rawDepartmentName": "소아청소년심장과",
+      "relationType": "REVIEW_REQUIRED",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D010-DEP011",
+      "diseaseId": "D010",
+      "departmentId": "DEP011",
+      "rawDepartmentName": "신경과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D010-DEP012",
+      "diseaseId": "D010",
+      "departmentId": "DEP012",
+      "rawDepartmentName": "신경외과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D011-DEP011",
+      "diseaseId": "D011",
+      "departmentId": "DEP011",
+      "rawDepartmentName": "신경과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D012-DEP013",
+      "diseaseId": "D012",
+      "departmentId": "DEP013",
+      "rawDepartmentName": "피부과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D012-DEP002",
+      "diseaseId": "D012",
+      "departmentId": "DEP002",
+      "rawDepartmentName": "알레르기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D013-DEP013",
+      "diseaseId": "D013",
+      "departmentId": "DEP013",
+      "rawDepartmentName": "피부과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D013-DEP002",
+      "diseaseId": "D013",
+      "departmentId": "DEP002",
+      "rawDepartmentName": "알레르기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D014-DEP014",
+      "diseaseId": "D014",
+      "departmentId": "DEP014",
+      "rawDepartmentName": "소화기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D014-DEP015",
+      "diseaseId": "D014",
+      "departmentId": "DEP015",
+      "rawDepartmentName": "간이식·간담도외과",
+      "relationType": "CONTEXTUAL",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D015-DEP014",
+      "diseaseId": "D015",
+      "departmentId": "DEP014",
+      "rawDepartmentName": "소화기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D015-DEP016",
+      "diseaseId": "D015",
+      "departmentId": "DEP016",
+      "rawDepartmentName": "대장항문외과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D015-DEP017",
+      "diseaseId": "D015",
+      "departmentId": "DEP017",
+      "rawDepartmentName": "소아소화기영양과",
+      "relationType": "CONTEXTUAL",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    },
+    {
+      "id": "D016-DEP014",
+      "diseaseId": "D016",
+      "departmentId": "DEP014",
+      "rawDepartmentName": "소화기내과",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "version": 1,
+      "applicablePopulation": null,
+      "notes": null
+    }
+  ],
+  "evidence": [
+    {
+      "mappingId": "D001-DEP001",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "호흡기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D001-DEP002",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "알레르기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D002-DEP001",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "호흡기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D002-DEP002",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "알레르기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D003-DEP003",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "가정의학과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D003-DEP004",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "심장내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D004-DEP004",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "심장내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D005-DEP004",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "심장내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D005-DEP005",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "심장외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D006-DEP004",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "심장내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D007-DEP003",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "가정의학과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D007-DEP006",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "내분비내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D007-DEP007",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "내분비외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D008-DEP006",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "내분비내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D009-DEP008",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "신장내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D009-DEP009",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "신·췌장이식외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D009-DEP010",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "소아청소년심장과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D010-DEP011",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "신경과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D010-DEP012",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "신경외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D011-DEP011",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "신경과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D012-DEP013",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "피부과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D012-DEP002",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "알레르기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D013-DEP013",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "피부과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D013-DEP002",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "알레르기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D014-DEP014",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "소화기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D014-DEP015",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "간이식·간담도외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D015-DEP014",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "소화기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D015-DEP016",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "대장항문외과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D015-DEP017",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "소아소화기영양과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    },
+    {
+      "mappingId": "D016-DEP014",
+      "sourceName": "사용자 제공 ERoute v0.1 초안",
+      "sourceUrl": null,
+      "rawDepartmentText": "소화기내과",
+      "checkedAt": null,
+      "note": "외부 원자료 수동 조사 evidence 미확인. matcher 개발용이며 지도 공개 승인 아님."
+    }
+  ],
+  "departmentAliases": [],
+  "uncertaintyPolicy": {
+    "version": "broad-labels-v1",
+    "broadDepartmentNames": [
+      "내과",
+      "외과",
+      "소아청소년과"
+    ]
+  }
+}

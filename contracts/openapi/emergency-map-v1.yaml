@@ -1,0 +1,1104 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ERoute Emergency Map API",
+    "version": "0.1.0",
+    "description": "GPS/manual nationwide search. All NMC access is server-side. Distances are straight-line meters. No automatic mobile polling. Null is never converted to zero or refusal."
+  },
+  "paths": {
+    "/api/v1/map-config": {
+      "get": {
+        "operationId": "getMapConfig",
+        "responses": {
+          "200": {
+            "description": "Server search policy; bounds can be null before catalog discovery/sync",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/MapConfig"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid search request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Backend request rate exceeded; NMC budget deferral uses HTTP 200",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Catalog not ready or database unavailable",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/api/v1/emergency-hospitals/search": {
+      "post": {
+        "operationId": "searchEmergencyHospitals",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SearchRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Includes empty results, partial failure and budget-deferred stale snapshots",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SearchResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid search request",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "429": {
+            "description": "Backend request rate exceeded; NMC budget deferral uses HTTP 200",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Catalog not ready or database unavailable",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/api/v1/emergency-hospitals/{hpid}": {
+      "get": {
+        "operationId": "getEmergencyHospitalDetail",
+        "description": "Reads the stored Hospital Master and current realtime observation by HPID. This request never calls NMC.",
+        "parameters": [
+          {
+            "name": "hpid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Stored master data combined with the current HPID observation",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HospitalDetail"
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "Active hospital was not found",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Database unavailable",
+            "content": {
+              "application/problem+json": {
+                "schema": {
+                  "$ref": "#/components/schemas/Problem"
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    },
+    "/api/v1/readyz": {
+      "get": {
+        "operationId": "getReadiness",
+        "responses": {
+          "200": {
+            "description": "Catalog ready",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "503": {
+            "description": "Catalog not ready or database unavailable",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "required": [
+                    "status"
+                  ],
+                  "properties": {
+                    "status": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        },
+        "security": []
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Point": {
+        "type": "object",
+        "properties": {
+          "latitude": {
+            "type": "number",
+            "minimum": -90,
+            "maximum": 90
+          },
+          "longitude": {
+            "type": "number",
+            "minimum": -180,
+            "maximum": 180
+          }
+        },
+        "required": [
+          "latitude",
+          "longitude"
+        ]
+      },
+      "Bounds": {
+        "type": "object",
+        "properties": {
+          "southWest": {
+            "$ref": "#/components/schemas/Point"
+          },
+          "northEast": {
+            "$ref": "#/components/schemas/Point"
+          }
+        },
+        "required": [
+          "southWest",
+          "northEast"
+        ]
+      },
+      "MapConfig": {
+        "type": "object",
+        "properties": {
+          "radiusStepsMeters": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "defaultRadiusMeters": {
+            "type": "integer"
+          },
+          "automaticRefreshEnabled": {
+            "type": "boolean",
+            "const": false
+          },
+          "coverageBounds": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Bounds"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "configVersion": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "radiusStepsMeters",
+          "defaultRadiusMeters",
+          "automaticRefreshEnabled",
+          "coverageBounds",
+          "configVersion"
+        ]
+      },
+      "SearchRequest": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "$ref": "#/components/schemas/Point"
+          },
+          "centerSource": {
+            "enum": [
+              "GPS",
+              "MANUAL"
+            ]
+          },
+          "userLocation": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/Point"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "radiusMeters": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "description": "Must be one of map-config.radiusStepsMeters. Omitted uses server default."
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "center",
+          "centerSource"
+        ]
+      },
+      "ResourceValue": {
+        "type": "object",
+        "properties": {
+          "endpoint": {
+            "type": "string"
+          },
+          "sourceField": {
+            "type": "string"
+          },
+          "officialLabel": {
+            "type": "string"
+          },
+          "rawValue": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "numericValue": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "format": "int64"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "interpretationStatus": {
+            "enum": [
+              "KNOWN",
+              "NOT_PROVIDED",
+              "MISSING",
+              "UNKNOWN_CODE",
+              "UNVERIFIED"
+            ]
+          }
+        },
+        "required": [
+          "endpoint",
+          "sourceField",
+          "officialLabel",
+          "rawValue",
+          "numericValue",
+          "interpretationStatus"
+        ]
+      },
+      "SourceTime": {
+        "type": "object",
+        "properties": {
+          "sourceRawTimestamp": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "parsedSourceTimestamp": {
+            "anyOf": [
+              {
+                "type": "string",
+                "description": "Local timestamp without offset while timezone is unverified. Never interpret as UTC."
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sourceTimezone": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sourceTimestampStatus": {
+            "enum": [
+              "MISSING",
+              "UNPARSEABLE",
+              "TIMEZONE_UNVERIFIED",
+              "VERIFIED"
+            ]
+          },
+          "sourceUpdatedAt": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "sourceRawTimestamp",
+          "parsedSourceTimestamp",
+          "sourceTimezone",
+          "sourceTimestampStatus",
+          "sourceUpdatedAt"
+        ]
+      },
+      "Freshness": {
+        "type": "object",
+        "properties": {
+          "source": {
+            "$ref": "#/components/schemas/SourceTime"
+          },
+          "fetchedAt": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "lastAttemptAt": {
+            "anyOf": [
+              {
+                "type": "string",
+                "format": "date-time"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "stale": {
+            "type": "boolean"
+          },
+          "staleReasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sourceFreshness": {
+            "type": "string",
+            "const": "UNKNOWN",
+            "description": "v0.1 does not infer the hvidate timezone."
+          }
+        },
+        "required": [
+          "source",
+          "fetchedAt",
+          "lastAttemptAt",
+          "stale",
+          "staleReasons",
+          "sourceFreshness"
+        ]
+      },
+      "Realtime": {
+        "type": "object",
+        "properties": {
+          "coverageStatus": {
+            "enum": [
+              "LIVE_AVAILABLE",
+              "LIVE_NOT_PROVIDED",
+              "LIVE_ERROR",
+              "LIVE_UNKNOWN"
+            ]
+          },
+          "refreshStatus": {
+            "enum": [
+              "UPDATED",
+              "CACHE_HIT",
+              "BUDGET_DEFERRED",
+              "IN_PROGRESS",
+              "ERROR",
+              "NOT_REQUESTED"
+            ]
+          },
+          "availableBeds": {
+            "$ref": "#/components/schemas/ResourceValue"
+          },
+          "referenceResources": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ResourceValue"
+            },
+            "description": "HVS01 retains officialLabel 일반_기준; UI 일반 기준값. Not a denominator or total capacity."
+          },
+          "freshness": {
+            "$ref": "#/components/schemas/Freshness"
+          },
+          "error": {
+            "anyOf": [
+              {
+                "type": "string"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          }
+        },
+        "required": [
+          "coverageStatus",
+          "refreshStatus",
+          "availableBeds",
+          "referenceResources",
+          "freshness",
+          "error"
+        ]
+      },
+      "Hospital": {
+        "type": "object",
+        "properties": {
+          "hpid": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "emergencyClass": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "name": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "name"
+            ]
+          },
+          "location": {
+            "$ref": "#/components/schemas/Point"
+          },
+          "distanceFromCenterMeters": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "distanceFromUserMeters": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "format": "int64"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "realtime": {
+            "$ref": "#/components/schemas/Realtime"
+          }
+        },
+        "required": [
+          "hpid",
+          "name",
+          "emergencyClass",
+          "location",
+          "distanceFromCenterMeters",
+          "distanceFromUserMeters",
+          "realtime"
+        ]
+      },
+      "ContactNumber": {
+        "type": "object",
+        "properties": {
+          "sourceField": {
+            "type": "string"
+          },
+          "officialLabel": {
+            "type": "string"
+          },
+          "rawValue": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "sourceField",
+          "officialLabel",
+          "rawValue"
+        ]
+      },
+      "HospitalBasicInfo": {
+        "type": "object",
+        "description": "Published PostgreSQL static NMC information. Detail never calls providers. NOT_REQUESTED means no published collection; clinic hours are hospital hours, not ER or department-specific hours.",
+        "properties": {
+          "fetchStatus": {
+            "enum": [
+              "NOT_REQUESTED",
+              "SUCCESS",
+              "ERROR"
+            ]
+          },
+          "departmentsRaw": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "clinicHours": {
+            "anyOf": [
+              {
+                "type": "array",
+                "items": {
+                  "type": "object"
+                }
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "sourceRawTimestamp": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "parsedSourceTimestamp": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fetchedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "lastAttemptAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "error": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "dataStatus": {
+            "enum": [
+              "NOT_COLLECTED",
+              "PROVIDED",
+              "NOT_PROVIDED"
+            ]
+          },
+          "refreshStatus": {
+            "enum": [
+              "UPDATED",
+              "CACHE_HIT",
+              "BUDGET_DEFERRED",
+              "IN_PROGRESS",
+              "ERROR",
+              "NOT_REQUESTED"
+            ]
+          },
+          "departmentsStatus": {
+            "type": "string",
+            "enum": [
+              "KNOWN",
+              "MISSING",
+              "NOT_PROVIDED",
+              "UNPARSEABLE",
+              "UNVERIFIED"
+            ]
+          },
+          "departments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HospitalDepartment"
+            }
+          },
+          "operatingHours": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HospitalOperatingHours"
+            }
+          },
+          "stale": {
+            "type": "boolean"
+          },
+          "staleReasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "datasetVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "required": [
+          "fetchStatus",
+          "departmentsRaw",
+          "clinicHours",
+          "sourceRawTimestamp",
+          "parsedSourceTimestamp",
+          "fetchedAt",
+          "lastAttemptAt",
+          "error"
+        ]
+      },
+      "HospitalDetail": {
+        "type": "object",
+        "properties": {
+          "hpid": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "emergencyClass": {
+            "type": "object"
+          },
+          "address": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "location": {
+            "$ref": "#/components/schemas/Point"
+          },
+          "mainPhone": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ContactNumber"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "secondaryPhone": {
+            "anyOf": [
+              {
+                "$ref": "#/components/schemas/ContactNumber"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "masterUpdatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "catalogVersion": {
+            "type": "string"
+          },
+          "catalogFetchedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "catalogStale": {
+            "type": "boolean"
+          },
+          "realtime": {
+            "$ref": "#/components/schemas/Realtime"
+          },
+          "basicInfo": {
+            "$ref": "#/components/schemas/HospitalBasicInfo"
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "hpid",
+          "name",
+          "emergencyClass",
+          "address",
+          "location",
+          "mainPhone",
+          "secondaryPhone",
+          "masterUpdatedAt",
+          "catalogVersion",
+          "catalogFetchedAt",
+          "catalogStale",
+          "realtime",
+          "basicInfo",
+          "generatedAt"
+        ]
+      },
+      "SearchMeta": {
+        "type": "object",
+        "properties": {
+          "center": {
+            "$ref": "#/components/schemas/Point"
+          },
+          "centerSource": {
+            "enum": [
+              "GPS",
+              "MANUAL"
+            ]
+          },
+          "attemptedRadiiMeters": {
+            "type": "array",
+            "items": {
+              "type": "integer"
+            }
+          },
+          "effectiveRadiusMeters": {
+            "type": "integer"
+          },
+          "expanded": {
+            "type": "boolean"
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "catalogVersion": {
+            "type": "string"
+          },
+          "catalogFetchedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "catalogStale": {
+            "type": "boolean"
+          },
+          "realtimeStatus": {
+            "enum": [
+              "COMPLETE",
+              "PARTIAL",
+              "ERROR"
+            ]
+          },
+          "totalCount": {
+            "type": "integer"
+          },
+          "warnings": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "center",
+          "centerSource",
+          "attemptedRadiiMeters",
+          "effectiveRadiusMeters",
+          "expanded",
+          "generatedAt",
+          "catalogVersion",
+          "catalogFetchedAt",
+          "catalogStale",
+          "realtimeStatus",
+          "totalCount",
+          "warnings"
+        ]
+      },
+      "SearchResponse": {
+        "type": "object",
+        "properties": {
+          "meta": {
+            "$ref": "#/components/schemas/SearchMeta"
+          },
+          "hospitals": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Hospital"
+            }
+          }
+        },
+        "required": [
+          "meta",
+          "hospitals"
+        ]
+      },
+      "Problem": {
+        "type": "object",
+        "properties": {
+          "type": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "status": {
+            "type": "integer"
+          },
+          "detail": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "traceId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "status",
+          "code"
+        ]
+      },
+      "HospitalDepartment": {
+        "type": "object",
+        "properties": {
+          "ordinal": {
+            "type": "integer"
+          },
+          "name": {
+            "type": "string"
+          },
+          "rawValue": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "const": "NMC"
+          },
+          "interpretationStatus": {
+            "type": "string",
+            "enum": [
+              "KNOWN",
+              "MISSING",
+              "NOT_PROVIDED",
+              "UNPARSEABLE",
+              "UNVERIFIED"
+            ]
+          }
+        },
+        "required": [
+          "name",
+          "source",
+          "interpretationStatus"
+        ]
+      },
+      "HospitalOperatingHours": {
+        "type": "object",
+        "description": "Only status KNOWN is a verified interval. No overnight, 24-hour or acceptance inference.",
+        "properties": {
+          "day": {
+            "enum": [
+              "MON",
+              "TUE",
+              "WED",
+              "THU",
+              "FRI",
+              "SAT",
+              "SUN",
+              "HOLIDAY"
+            ]
+          },
+          "open": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-2][0-9]:[0-5][0-9]$"
+          },
+          "close": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "pattern": "^[0-2][0-9]:[0-5][0-9]$"
+          },
+          "status": {
+            "type": "string",
+            "enum": [
+              "KNOWN",
+              "MISSING",
+              "NOT_PROVIDED",
+              "UNPARSEABLE",
+              "UNVERIFIED"
+            ]
+          },
+          "source": {
+            "const": "NMC"
+          },
+          "rawOpenValue": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rawCloseValue": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "openStatus": {
+            "type": "string",
+            "enum": [
+              "KNOWN",
+              "MISSING",
+              "NOT_PROVIDED",
+              "UNPARSEABLE",
+              "UNVERIFIED"
+            ]
+          },
+          "closeStatus": {
+            "type": "string",
+            "enum": [
+              "KNOWN",
+              "MISSING",
+              "NOT_PROVIDED",
+              "UNPARSEABLE",
+              "UNVERIFIED"
+            ]
+          },
+          "openPresence": {
+            "enum": [
+              "MISSING",
+              "EMPTY",
+              "NIL",
+              "TEXT",
+              "STRUCTURED",
+              "MULTIPLE"
+            ]
+          },
+          "closePresence": {
+            "enum": [
+              "MISSING",
+              "EMPTY",
+              "NIL",
+              "TEXT",
+              "STRUCTURED",
+              "MULTIPLE"
+            ]
+          }
+        },
+        "required": [
+          "day",
+          "open",
+          "close",
+          "status",
+          "source",
+          "rawOpenValue",
+          "rawCloseValue",
+          "openStatus",
+          "closeStatus",
+          "openPresence",
+          "closePresence"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,1593 @@
+{
+  "documentType": "NON_RUNTIME_REVIEW_WORKSHEET",
+  "referenceVersion": "eroute-disease-departments-v0.4",
+  "instructions": "This worksheet is not reference data and must never be loaded by the app. Fill evidence from actual human research; apply to a NEW immutable DRAFT reference version and validate --previous. No automatic approval. Nulls intentionally mean missing, not checked.",
+  "mappings": [
+    {
+      "mappingId": "V04-D001-DEP024",
+      "diseaseId": "D001",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "천식",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D002-DEP024",
+      "diseaseId": "D002",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "만성폐쇄성폐질환",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D003-DEP003",
+      "diseaseId": "D003",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "고혈압",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D003-DEP024",
+      "diseaseId": "D003",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "고혈압",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D004-DEP024",
+      "diseaseId": "D004",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "심방세동",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D005-DEP024",
+      "diseaseId": "D005",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "심부전",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D006-DEP024",
+      "diseaseId": "D006",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "협심증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D007-DEP003",
+      "diseaseId": "D007",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "갑상선기능항진증",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D007-DEP024",
+      "diseaseId": "D007",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "갑상선기능항진증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D008-DEP024",
+      "diseaseId": "D008",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "갑상선기능저하증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D009-DEP024",
+      "diseaseId": "D009",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "만성 신부전",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D010-DEP011",
+      "diseaseId": "D010",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "뇌전증",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D011-DEP011",
+      "diseaseId": "D011",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "파킨슨병",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D012-DEP013",
+      "diseaseId": "D012",
+      "departmentId": "DEP013",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "아토피성 피부염",
+      "departmentCanonicalName": "피부과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D013-DEP013",
+      "diseaseId": "D013",
+      "departmentId": "DEP013",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "EXACT_CANONICAL_REVIEW_REQUIRED",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "두드러기",
+      "departmentCanonicalName": "피부과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D014-DEP024",
+      "diseaseId": "D014",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "간경변증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D015-DEP024",
+      "diseaseId": "D015",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "크론병",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D016-DEP024",
+      "diseaseId": "D016",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: ERoute uses broad canonical department '내과'. Official evidence may name an internal-medicine subspecialty. The broad crosswalk requires independent human review. The presence of 내과 does not mean every such hospital treats or accepts patients with this disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "궤양성 대장염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D017-DEP003",
+      "diseaseId": "D017",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "당뇨병",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D017-DEP024",
+      "diseaseId": "D017",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "당뇨병",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D018-DEP003",
+      "diseaseId": "D018",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "이상지질혈증",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D018-DEP024",
+      "diseaseId": "D018",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "이상지질혈증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D019-DEP024",
+      "diseaseId": "D019",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "만성 B형간염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D020-DEP024",
+      "diseaseId": "D020",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "만성 C형간염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D021-DEP024",
+      "diseaseId": "D021",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "지방간",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D022-DEP024",
+      "diseaseId": "D022",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "기관지확장증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D023-DEP024",
+      "diseaseId": "D023",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "특발성 폐섬유화증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D024-DEP024",
+      "diseaseId": "D024",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "류마티스 관절염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D025-DEP024",
+      "diseaseId": "D025",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "전신성 홍반성 루푸스",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D026-DEP024",
+      "diseaseId": "D026",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "통풍",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D027-DEP024",
+      "diseaseId": "D027",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "강직성 척추염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D027-DEP045",
+      "diseaseId": "D027",
+      "departmentId": "DEP045",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "강직성 척추염",
+      "departmentCanonicalName": "재활의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D028-DEP011",
+      "diseaseId": "D028",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "다발성 경화증",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D029-DEP011",
+      "diseaseId": "D029",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "알츠하이머병",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D029-DEP046",
+      "diseaseId": "D029",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "알츠하이머병",
+      "departmentCanonicalName": "정신건강의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D030-DEP003",
+      "diseaseId": "D030",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "편두통",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D030-DEP011",
+      "diseaseId": "D030",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "편두통",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP011",
+      "diseaseId": "D031",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "뇌경색",
+      "departmentCanonicalName": "신경과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP012",
+      "diseaseId": "D031",
+      "departmentId": "DEP012",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "뇌경색",
+      "departmentCanonicalName": "신경외과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP045",
+      "diseaseId": "D031",
+      "departmentId": "DEP045",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "뇌경색",
+      "departmentCanonicalName": "재활의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D032-DEP046",
+      "diseaseId": "D032",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "우울증",
+      "departmentCanonicalName": "정신건강의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D033-DEP046",
+      "diseaseId": "D033",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "양극성 장애",
+      "departmentCanonicalName": "정신건강의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D034-DEP046",
+      "diseaseId": "D034",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "조현병",
+      "departmentCanonicalName": "정신건강의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D035-DEP003",
+      "diseaseId": "D035",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "양성 전립선 비대증",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D035-DEP028",
+      "diseaseId": "D035",
+      "departmentId": "DEP028",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "양성 전립선 비대증",
+      "departmentCanonicalName": "비뇨의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D036-DEP028",
+      "diseaseId": "D036",
+      "departmentId": "DEP028",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "요로결석",
+      "departmentCanonicalName": "비뇨의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D037-DEP024",
+      "diseaseId": "D037",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "알레르기 비염",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D037-DEP043",
+      "diseaseId": "D037",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "알레르기 비염",
+      "departmentCanonicalName": "이비인후과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D038-DEP043",
+      "diseaseId": "D038",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "만성 부비동염",
+      "departmentCanonicalName": "이비인후과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D039-DEP036",
+      "diseaseId": "D039",
+      "departmentId": "DEP036",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "녹내장",
+      "departmentCanonicalName": "안과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D040-DEP036",
+      "diseaseId": "D040",
+      "departmentId": "DEP036",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "백내장",
+      "departmentCanonicalName": "안과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D041-DEP030",
+      "diseaseId": "D041",
+      "departmentId": "DEP030",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "자궁내막증",
+      "departmentCanonicalName": "산부인과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D042-DEP030",
+      "diseaseId": "D042",
+      "departmentId": "DEP030",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "다낭성 난소 증후군",
+      "departmentCanonicalName": "산부인과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP003",
+      "diseaseId": "D043",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "골다공증",
+      "departmentCanonicalName": "가정의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP024",
+      "diseaseId": "D043",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "골다공증",
+      "departmentCanonicalName": "내과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP047",
+      "diseaseId": "D043",
+      "departmentId": "DEP047",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "골다공증",
+      "departmentCanonicalName": "정형외과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP012",
+      "diseaseId": "D044",
+      "departmentId": "DEP012",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "요추 추간판 탈출증",
+      "departmentCanonicalName": "신경외과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP025",
+      "diseaseId": "D044",
+      "departmentId": "DEP025",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "요추 추간판 탈출증",
+      "departmentCanonicalName": "마취통증의학과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP047",
+      "diseaseId": "D044",
+      "departmentId": "DEP047",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "요추 추간판 탈출증",
+      "departmentCanonicalName": "정형외과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D045-DEP013",
+      "diseaseId": "D045",
+      "departmentId": "DEP013",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "건선",
+      "departmentCanonicalName": "피부과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D046-DEP043",
+      "diseaseId": "D046",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      },
+      "diseaseDisplayName": "메니에르병",
+      "departmentCanonicalName": "이비인후과",
+      "relationType": "DIRECT",
+      "mappingVersion": 1,
+      "reviewClass": "REVIEW_REQUIRED"
+    }
+  ]
+}

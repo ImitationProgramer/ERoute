@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "adult-cpr",
+  "title": "성인 심폐소생술",
+  "audience": "성인 기본소생술 · 일반인 구조자",
+  "contentVersion": "0.1.1-review.1",
+  "rightsStatus": "KOGL1_TEXT_ADAPTATION",
+  "sourceVersionRefs": {
+    "S03": "2022 게시물 · 2023 이미지",
+    "S07": "260209 · 정오표 1차(2026-02-09)"
+  },
+  "content": {
+    "applicability": [
+      {
+        "heading": "적용 대상 검토",
+        "text": "성인 기본소생술을 위한 부분 원고입니다. 환자 연령·체격과 압박 시작 조건은 아직 확정되지 않았습니다.",
+        "evidence": [
+          "S03 · 심폐소생술 순서 / 대상 조건 미기재"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "heading": "반응 확인",
+        "text": "양쪽 어깨를 두드리고 큰 소리로 말을 걸어 반응을 확인하세요.",
+        "evidence": [
+          "S03 · 1 확인"
+        ]
+      },
+      {
+        "heading": "119 신고와 AED 요청",
+        "text": "119에 신고하고 주변 사람에게 AED를 요청하세요. 이어 호흡을 확인하는 순서입니다.",
+        "evidence": [
+          "S03 · 2 신고"
+        ]
+      },
+      {
+        "heading": "가슴압박",
+        "text": "복장뼈 아래쪽 절반 부위에 두 손을 겹치고 손꿈치로 압박하세요. 자료의 압박 기준은 분당 100~120회, 깊이 5cm입니다.",
+        "evidence": [
+          "S03 · 3 압박 / 압박 위치 및 방법"
+        ]
+      },
+      {
+        "heading": "교육받은 인공호흡",
+        "text": "인공호흡은 교육을 받았고 시행할 의지가 있을 때 실시하는 내용입니다. 해당 자료는 가슴압박 30회와 인공호흡 2회의 반복을 설명합니다.",
+        "evidence": [
+          "S03 · 4 호흡 / 인공호흡 조건"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "heading": "전체 절차로 사용하지 마세요",
+        "text": "이 원고는 시작 조건·가슴 이완·중단 최소화·대상별 예외의 검토가 끝나지 않은 부분 원고입니다.",
+        "evidence": [
+          "S03 ↔ S07 · 인쇄쪽 57, 65~70 비교에서 보완 필요"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "heading": "이 부분 원고의 한계",
+        "text": "이 부분 원고에는 가슴압박 중단·회복·구급대 인계에 관한 완전한 안내가 포함되어 있지 않습니다.",
+        "evidence": [
+          "S03 · 의식 회복 문구만으로는 S07 인쇄쪽 57·78의 조건을 충족하지 않음"
+        ]
+      }
+    ]
+  },
+  "unresolved": [
+    "응급의학/소생술 전문가: “반응이 없고 호흡이 없거나 비정상일 때 시작”·정상호흡 분기·일반인 맥박 확인 제외의 최종 문장 확인(S07 인쇄쪽 57, 64~65). 이 자료는 대조 기록이며 제4유형 문장을 원고에 옮기지 않음.",
+    "소생술 전문가: S07 인쇄쪽 284는 성인 분류를 만 8세부터로 정의. 만 14세 회원가입과 무관. 인쇄쪽 68의 보통 체격 기준과 연령/체격 설명을 함께 검토.",
+    "소생술 전문가: 가슴압박만 하는 경우와 교육·의지가 있는 인공호흡 병행, 익수/질식 등 미지원 범위, 이완/중단/구급대 인계/회복 조건 보완.",
+    "콘텐츠 권리 검토자: 제1유형 S03의 재구성 권리는 확인됨. 보완 표현은 별도의 사용 가능한 자료/독자 원고 권리 검토 대상으로 구분하며 제4유형 도표·표현을 변형하여 번들에 넣지 않음."
+  ],
+  "review": {
+    "evidenceStatus": "PENDING",
+    "medicalReviewStatus": "PENDING",
+    "medicalReviewer": null,
+    "medicalReviewedAt": null,
+    "publicationStatus": "PENDING",
+    "publicationApprovedBy": null,
+    "publicationApprovedAt": null,
+    "approvedContentHash": null,
+    "permissionStatus": "NOT_REQUIRED_WITHIN_KOGL1",
+    "permissionGrantedBy": null,
+    "permissionGrantedAt": null
+  }
+}

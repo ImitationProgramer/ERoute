@@ -1,0 +1,140 @@
+[
+  {
+    "id": "EMERGENCY_CALL_INFO",
+    "category": "EMERGENCY_ACTION",
+    "title": "119에 알려줄 내용",
+    "summary": "상황과 증상을 설명할 때 필요한 정보",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "119 구급신고 요령",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/emergencyservice/119emergencydeclaration/",
+    "publicationDate": null,
+    "sourceCheckedAt": "2026-09-22",
+    "license": "UNCONFIRMED",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/report-119.webp",
+    "aliases": [
+      "report-119"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "환자가 있다는 사실",
+          "정확한 위치",
+          "증상과 의식·호흡 상태",
+          "알고 있는 나이·지병·복용약",
+          "신고자의 연락 가능한 번호",
+          "먼저 전화를 끊지 않고 119 안내 따르기"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EMERGENCY_LOCATION_HELP",
+    "category": "EMERGENCY_ACTION",
+    "title": "주소를 모를 때 위치 설명",
+    "summary": "주변 건물과 표지로 장소를 알리는 방법",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "119 구급신고 요령",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/emergencyservice/119emergencydeclaration/",
+    "publicationDate": null,
+    "sourceCheckedAt": "2026-09-22",
+    "license": "UNCONFIRMED",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/explain-location.webp",
+    "aliases": [
+      "explain-location"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "큰 건물명/상호",
+          "건물 전화번호",
+          "엘리베이터 고유번호",
+          "국가지점번호",
+          "고속도로 이정좌표",
+          "전봇대 번호",
+          "도로명/주변 표지판",
+          "스마트폰 GPS 활성화"
+        ],
+        "intro": "사용할 수 있는 위치 단서"
+      }
+    ]
+  },
+  {
+    "id": "EMERGENCY_BEFORE_AMBULANCE",
+    "category": "EMERGENCY_ACTION",
+    "title": "구급차가 오기 전",
+    "summary": "현장 안내와 준비에 관한 내용",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "119 구급차 도착 전 준비",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/emergencyservice/emergencydeclarationbefore/",
+    "publicationDate": null,
+    "sourceCheckedAt": "2026-09-22",
+    "license": "UNCONFIRMED",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/before-ambulance.webp",
+    "aliases": [
+      "before-ambulance"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "119 의료지도에 따라 응급처치",
+          "다른 사람이 있으면 구급차가 들어오는 길 안내",
+          "평소 복용약 등 필요한 물품 준비",
+          "환자 상태 지속 관찰"
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "119 실시간 안내가 앱 일반 안내보다 우선"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "EMERGENCY_HANDOFF_INFO",
+    "category": "EMERGENCY_ACTION",
+    "title": "구급대원에게 알려줄 정보",
+    "summary": "상태 변화와 이미 시행한 응급처치, 지병·병원·복용약",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "119 구급차 도착 전 준비",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/emergencyservice/emergencydeclarationbefore/",
+    "publicationDate": null,
+    "sourceCheckedAt": "2026-09-22",
+    "license": "UNCONFIRMED",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/report-119.webp",
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "증상/사고가 시작된 과정",
+          "도착 전 상태 변화",
+          "이미 시행한 응급처치",
+          "알고 있는 지병",
+          "다니는 병원",
+          "복용 중인 약"
+        ]
+      }
+    ]
+  }
+]

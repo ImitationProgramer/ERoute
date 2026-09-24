@@ -1,0 +1,29 @@
+{
+  "status": "APPROVED — 사용자 E 변경안 승인; 2단계 플랫폼 적용 승인. 2026-09-15",
+  "reference": {
+    "path": "docs/ui/references/Codex 이미지 2026년 9월 15일 오후 07_40_24.png",
+    "sha256": "ab778d4f9aba56ea16b2f555db3a7348b1d5fed17686589f8e2e91f5e40df90d",
+    "resolution": "HTML img src URL-decoded, opened, SHA-256 matched. Path question resolved."
+  },
+  "tool": "built-in image_gen",
+  "assets": {
+    "light": {
+      "source": "${HOME}/.codex/generated_images/01a0a480-8037-7a32-8546-1f1f0dfa4878/exec-10d2fde8-8540-46bc-a1bd-98647fa12024.png",
+      "filename": "eroute-e-light-candidate-v1.png",
+      "prompt": "Use case: logo-brand. Create ONE new standalone high resolution square ERoute LIGHT app icon candidate, 1024x1024 or higher. Input image is a REFERENCE BOARD, not pixels to crop/enlarge. Use ONLY concept 01 여정형 (first column and enlarged pair bottom left): a broad winding ivory S-road in foreground dark blue hills, converging at a warm luminous horizon under a blue sky. Redraw from scratch with smooth precise simplified layered illustration. IMPORTANT DESIGN CHANGE PROPOSAL: replace the original red medical cross inside its pale circular destination disk with a bold custom uppercase E in deep navy; three broad horizontal bars with a shorter middle bar, softly rounded corners, exceptionally clear negative spaces. The E is the only lettering. Keep circular warm ivory destination disk centered at x=50%, y=39%, diameter=29% of canvas; E approx 20% canvas height. Road starts near x=37% at bottom edge, winds right toward x=62% at y=75%, curves left toward x=47% at y=62%, terminates at disk bottom x=50% y=54%. Horizon at y=57%. Simplify to two or three mountain planes, few broad clouds, no texture/no clutter. Light palette: blue sky, warm peach horizon, slate/navy hills, ivory road. Full bleed square artwork to ALL edges; absolutely NO rounded outer corners, frame, phone mockup, external shadow, labels, badges or watermark. Central E and disk stay well inside middle 60% for circular/adaptive masks. This is a visual candidate awaiting user approval, not installed platform resource.",
+      "sha256": "03fa1bb0132fa400ebbcd1116a3bfd5b1937a76119623de5696cce80734ac8c0"
+    },
+    "dark": {
+      "source": "${HOME}/.codex/generated_images/01a0a480-8037-7a32-8546-1f1f0dfa4878/exec-e176f0f3-712e-48d2-88cc-82ceeed942c2.png",
+      "filename": "eroute-e-dark-candidate-v1.png",
+      "prompt": "Use case: lighting-weather. Input image is the EDIT TARGET, a newly drawn ERoute LIGHT icon. Produce ONE full bleed square DARK/NIGHT variant at identical dimensions. Preserve EXACT geometry, all object contours, horizon y, central disk size and position, E letter shape/size/position, every mountain edge and every winding-road edge. Change ONLY palette and illumination. Deep navy midnight sky, subtle violet muted warm horizon glow, dark navy/indigo mountains, softly luminous ivory road, pale ivory destination disk with unchanged navy E. Keep clouds in the same position but muted night blue. Do not add stars, moon, extra details, gradients that obscure the symbol, text, border, rounded outer corners, shadow, badges or mockup. Same composition and same E symbol as input. This is a night appearance design candidate awaiting approval.",
+      "sha256": "0b914da1834e868d492b8b0d55cfa1577a18a12fbb0f39af6b95b76ae73f613f"
+    },
+    "mono": {
+      "source": "${HOME}/.codex/generated_images/01a0a480-8037-7a32-8546-1f1f0dfa4878/exec-65fe405f-21e9-420d-b2e7-4a165ab6936b.png",
+      "filename": "eroute-e-mono-candidate-v1.png",
+      "prompt": "Use case: logo-brand. Input image is a reference for a newly drawn ERoute icon. Produce ONE standalone monochrome mark on a pure white square background. Match the central E shape, location and disk from the reference. A solid black circular destination disk centered at x=50%,y=40%, diameter 31%; the EXACT same rounded uppercase E is WHITE negative space within this disk. Below, simplify the winding road from the reference into ONE solid black flowing tapering ribbon, attaching to disk near x=50%, y=55%, curving right at y=65%, then left near y=77%, with its broad lower end confined within x=34..66%, ending at y=82%. Whole disk plus road contained within middle 66% width and height for icon mask safety. Remove all scenery/clouds/mountains/glow. Only binary black silhouette and white negative space, antialiased edges allowed. Do NOT use grayscale scenery or convert the whole landscape to grayscale. No border, rounded background corners, captions, extra symbols, shadows or mockups. Preserve E recognizability at small size. This is the proposed Android monochrome silhouette, still unapproved, not an installed resource.",
+      "sha256": "d85e8eeba5ed50ad644460ec037715607dc1e1b24571d332dc3107f060962429"
+    }
+  }
+}

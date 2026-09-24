@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: eroute-api
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/eroute}
+    username: ${DB_USERNAME:eroute}
+    password: ${DB_PASSWORD:}
+    hikari:
+      maximum-pool-size: 12
+  threads:
+    virtual:
+      enabled: true
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: never
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: never
+eroute:
+  auth:
+    environment: ${EROUTE_AUTH_ENVIRONMENT:disabled}
+    provider: ${EROUTE_AUTH_PROVIDER:disabled}
+    allow-development: ${EROUTE_ALLOW_DEVELOPMENT_AUTH:false}
+    key-file: ${EROUTE_AUTH_KEY_FILE:}
+  radius-steps: ${SEARCH_RADIUS_STEPS_METERS:10000,20000,50000}
+  realtime-ttl: ${REALTIME_CACHE_TTL:300s}
+  master-ttl: ${MASTER_REFRESH_INTERVAL:24h}
+  refresh-deadline: 12s
+  nmc-base-url: ${NMC_BASE_URL:https://apis.data.go.kr/B552657/ErmctInfoInqireService}
+  nmc-key: ${NMC_SERVICE_KEY:}
+  key-encoding: ${NMC_SERVICE_KEY_ENCODING:decoded}
+  key-alias: ${NMC_KEY_ALIAS:development}
+  call-budget: ${NMC_ENDPOINT_CALL_BUDGET:900}
+  daily-limit: ${NMC_ENDPOINT_DAILY_LIMIT:1000}
+  max-concurrency: ${NMC_MAX_CONCURRENCY:4}
+  requests-per-second: ${NMC_REQUESTS_PER_SECOND:2}
+  request-timeout: ${NMC_REQUEST_TIMEOUT:5s}
+  max-response-bytes: 8388608
+  raw-retention-days: ${RAW_RETENTION_DAYS:7}
+  basic-info:
+    refresh-interval: ${BASIC_INFO_REFRESH_INTERVAL:7d}
+    scheduler-enabled: ${BASIC_INFO_SCHEDULER_ENABLED:false}

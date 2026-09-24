@@ -1,0 +1,736 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "ERoute disease personalization foundation",
+    "version": "0.2.0",
+    "description": "Extensible recording catalog; APPROVED + DIRECT matcher only. Production map flag remains OFF. No NMC refresh."
+  },
+  "paths": {
+    "/api/v1/reference/disease-departments": {
+      "get": {
+        "summary": "One authoritative Backend reference",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ReferenceEnvelope"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          }
+        },
+        "description": "SHA-256 binds the exact published document. v2 includes all catalog rows but only APPROVED mappings/aliases, with evidence and approval version. DRAFT records remain backend reference data. Zero approved rows is valid."
+      }
+    },
+    "/api/v1/emergency-hospitals/departments/query": {
+      "post": {
+        "summary": "Read published public departments; no provider refresh",
+        "security": [],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HospitalBatch"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/HospitalQuery"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me/map-disease-selection": {
+      "get": {
+        "summary": "Read own effective selection; current health consent required",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SelectionSnapshot"
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "no-store"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          },
+          "401": {
+            "description": "No valid session"
+          },
+          "403": {
+            "description": "Member/current health consent required"
+          },
+          "409": {
+            "description": "Data, consent or reference version changed"
+          }
+        }
+      },
+      "put": {
+        "summary": "Explicitly confirm disease IDs; original text unchanged",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SelectionSnapshot"
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "no-store"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          },
+          "401": {
+            "description": "No valid session"
+          },
+          "403": {
+            "description": "Member/current health consent required"
+          },
+          "409": {
+            "description": "Data, consent or reference version changed"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SelectionWrite"
+              }
+            }
+          }
+        }
+      },
+      "delete": {
+        "summary": "Remove selected IDs; original text unchanged",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SelectionSnapshot"
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "no-store"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          },
+          "401": {
+            "description": "No valid session"
+          },
+          "403": {
+            "description": "Member/current health consent required"
+          },
+          "409": {
+            "description": "Data, consent or reference version changed"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/SelectionClear"
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/me/conditions": {
+      "get": {
+        "summary": "Read own condition tags and independent free text",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConditionsSnapshot"
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "no-store"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          },
+          "401": {
+            "description": "No valid session"
+          },
+          "403": {
+            "description": "Member/current health consent required"
+          },
+          "409": {
+            "description": "Data, consent or reference version changed"
+          }
+        }
+      },
+      "put": {
+        "summary": "Atomically save tags/free text; never grants map use",
+        "security": [
+          {
+            "bearerAuth": []
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ConditionsSnapshot"
+                }
+              }
+            },
+            "headers": {
+              "Cache-Control": {
+                "schema": {
+                  "type": "string"
+                },
+                "description": "no-store"
+              }
+            }
+          },
+          "400": {
+            "description": "Invalid payload"
+          },
+          "503": {
+            "description": "Unavailable; no fallback or provider call"
+          },
+          "401": {
+            "description": "No valid session"
+          },
+          "403": {
+            "description": "Member/current health consent required"
+          },
+          "409": {
+            "description": "Data, consent or reference version changed"
+          }
+        },
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ConditionsWrite"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {
+      "bearerAuth": {
+        "type": "http",
+        "scheme": "bearer"
+      }
+    },
+    "schemas": {
+      "ReferenceEnvelope": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "document": {
+            "type": "string",
+            "description": "Exact UTF-8 authoritative Backend JSON document. DRAFT, never a public-map approval."
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "required": [
+          "document",
+          "sha256"
+        ]
+      },
+      "HospitalQuery": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "hpids": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 100
+            }
+          }
+        },
+        "required": [
+          "hpids"
+        ]
+      },
+      "DepartmentToken": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "rawValue": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "source": {
+            "type": "string"
+          },
+          "interpretationStatus": {
+            "type": "string"
+          },
+          "ordinal": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "name",
+          "rawValue",
+          "source",
+          "interpretationStatus",
+          "ordinal"
+        ]
+      },
+      "HospitalDepartments": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "hpid": {
+            "type": "string"
+          },
+          "datasetVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "recordStatus": {
+            "enum": [
+              "PROVIDED",
+              "NOT_COLLECTED",
+              "NOT_PROVIDED",
+              "INACTIVE",
+              "NOT_FOUND"
+            ]
+          },
+          "snapshotId": {
+            "type": [
+              "integer",
+              "null"
+            ]
+          },
+          "departmentsStatus": {
+            "type": "string"
+          },
+          "normalizerVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "fetchedAt": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "validUntil": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "format": "date-time"
+          },
+          "stale": {
+            "type": "boolean"
+          },
+          "staleReasons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "departments": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/DepartmentToken"
+            }
+          }
+        },
+        "required": [
+          "hpid",
+          "datasetVersion",
+          "recordStatus",
+          "snapshotId",
+          "departmentsStatus",
+          "normalizerVersion",
+          "fetchedAt",
+          "validUntil",
+          "stale",
+          "staleReasons",
+          "departments"
+        ]
+      },
+      "HospitalBatch": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "datasetVersion": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "generatedAt": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "hospitals": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/HospitalDepartments"
+            }
+          }
+        },
+        "required": [
+          "datasetVersion",
+          "generatedAt",
+          "hospitals"
+        ]
+      },
+      "Selection": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "state": {
+            "enum": [
+              "NOT_SELECTED",
+              "CONFIRMED",
+              "RECONFIRM_REQUIRED"
+            ]
+          },
+          "diseaseIds": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "purposeVersion": {
+            "type": "string"
+          },
+          "referenceVersion": {
+            "type": "string"
+          },
+          "confirmedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "state",
+          "diseaseIds"
+        ]
+      },
+      "SelectionSnapshot": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "consentEpoch": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "mapDiseaseSelection": {
+            "$ref": "#/components/schemas/Selection"
+          }
+        },
+        "required": [
+          "version",
+          "consentEpoch",
+          "mapDiseaseSelection"
+        ]
+      },
+      "SelectionClear": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "consentEpoch": {
+            "type": "integer",
+            "minimum": 0
+          }
+        },
+        "required": [
+          "version",
+          "consentEpoch"
+        ]
+      },
+      "SelectionWrite": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "consentEpoch": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "diseaseIds": {
+            "type": "array",
+            "minItems": 1,
+            "maxItems": 100,
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "purpose": {
+            "type": "string"
+          },
+          "purposeVersion": {
+            "type": "string"
+          },
+          "referenceVersion": {
+            "type": "string"
+          },
+          "confirmed": {
+            "const": true
+          }
+        },
+        "required": [
+          "version",
+          "consentEpoch",
+          "diseaseIds",
+          "purpose",
+          "purposeVersion",
+          "referenceVersion",
+          "confirmed"
+        ],
+        "description": "Explicit separate map use confirmation. Each disease ID must already be a recorded standard tag and active; mappings are not required. Version/consentEpoch required."
+      },
+      "ConditionsWrite": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "consentEpoch": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "status": {
+            "enum": [
+              "RECORDED",
+              "NONE",
+              "UNSET"
+            ]
+          },
+          "freeText": {
+            "type": "string",
+            "maxLength": 2000
+          },
+          "diseaseIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "uniqueItems": true,
+            "maxItems": 100
+          },
+          "catalogVersion": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "required": [
+          "version",
+          "consentEpoch",
+          "status",
+          "freeText",
+          "diseaseIds",
+          "catalogVersion"
+        ]
+      },
+      "StandardDiseaseSelection": {
+        "type": "object",
+        "properties": {
+          "diseaseIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "catalogVersion": {
+            "type": "string",
+            "minLength": 1
+          },
+          "confirmedAt": {
+            "type": "string",
+            "format": "date-time"
+          }
+        },
+        "required": [
+          "diseaseIds"
+        ]
+      },
+      "ConditionsSnapshot": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "version": {
+            "type": "integer"
+          },
+          "consentEpoch": {
+            "type": "integer"
+          },
+          "status": {
+            "enum": [
+              "RECORDED",
+              "NONE",
+              "UNSET"
+            ]
+          },
+          "freeText": {
+            "type": "string"
+          },
+          "standardDiseaseSelection": {
+            "$ref": "#/components/schemas/StandardDiseaseSelection"
+          },
+          "mapDiseaseSelection": {
+            "$ref": "#/components/schemas/Selection"
+          }
+        },
+        "required": [
+          "version",
+          "consentEpoch",
+          "status",
+          "freeText",
+          "standardDiseaseSelection",
+          "mapDiseaseSelection"
+        ]
+      }
+    }
+  }
+}

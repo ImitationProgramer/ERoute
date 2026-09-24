@@ -1,0 +1,527 @@
+{
+  "version": "nmc-region-query-v1",
+  "endpoint": "getEgytListInfoInqire",
+  "administrativeSourceSha256": "8cfd829c797270b56243a46e9f1e4e95377c2135153c36909021a35a1e32966a",
+  "policy": "List validation uses the municipality filter; realtime STAGE1/STAGE2 retain their administrative district. Each mapping must pass complete Master HPID coverage before use.",
+  "empiricalReport": "docs/operations/region-refresh-investigation-2026-09-14.md",
+  "mappings": [
+    {
+      "regionId": "4101100000",
+      "requestRegionId": "4101000000",
+      "administrativePrefix": "경기도 인천시 중구",
+      "requestStage1": "경기도",
+      "requestStage2": "인천시"
+    },
+    {
+      "regionId": "4101200000",
+      "requestRegionId": "4101000000",
+      "administrativePrefix": "경기도 인천시 동구",
+      "requestStage1": "경기도",
+      "requestStage2": "인천시"
+    },
+    {
+      "regionId": "4101300000",
+      "requestRegionId": "4101000000",
+      "administrativePrefix": "경기도 인천시 남구",
+      "requestStage1": "경기도",
+      "requestStage2": "인천시"
+    },
+    {
+      "regionId": "4101400000",
+      "requestRegionId": "4101000000",
+      "administrativePrefix": "경기도 인천시 북구",
+      "requestStage1": "경기도",
+      "requestStage2": "인천시"
+    },
+    {
+      "regionId": "4119100000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 중구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119300000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 남구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119500000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 원미구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119700000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 소사구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119900000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 오정구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4128300000",
+      "requestRegionId": "4128000000",
+      "administrativePrefix": "경기도 고양시 일산구",
+      "requestStage1": "경기도",
+      "requestStage2": "고양시"
+    },
+    {
+      "regionId": "4411100000",
+      "requestRegionId": "4411000000",
+      "administrativePrefix": "충청남도 대전시 동구",
+      "requestStage1": "충청남도",
+      "requestStage2": "대전시"
+    },
+    {
+      "regionId": "4411300000",
+      "requestRegionId": "4411000000",
+      "administrativePrefix": "충청남도 대전시 중구",
+      "requestStage1": "충청남도",
+      "requestStage2": "대전시"
+    },
+    {
+      "regionId": "4411500000",
+      "requestRegionId": "4411000000",
+      "administrativePrefix": "충청남도 대전시 서구",
+      "requestStage1": "충청남도",
+      "requestStage2": "대전시"
+    },
+    {
+      "regionId": "4511100000",
+      "requestRegionId": "4511000000",
+      "administrativePrefix": "전라북도 전주시 완산구",
+      "requestStage1": "전라북도",
+      "requestStage2": "전주시"
+    },
+    {
+      "regionId": "4511300000",
+      "requestRegionId": "4511000000",
+      "administrativePrefix": "전라북도 전주시 덕진구",
+      "requestStage1": "전라북도",
+      "requestStage2": "전주시"
+    },
+    {
+      "regionId": "4601100000",
+      "requestRegionId": "4601000000",
+      "administrativePrefix": "전라남도 광주시 동구",
+      "requestStage1": "전라남도",
+      "requestStage2": "광주시"
+    },
+    {
+      "regionId": "4601200000",
+      "requestRegionId": "4601000000",
+      "administrativePrefix": "전라남도 광주시 서구",
+      "requestStage1": "전라남도",
+      "requestStage2": "광주시"
+    },
+    {
+      "regionId": "4601300000",
+      "requestRegionId": "4601000000",
+      "administrativePrefix": "전라남도 광주시 북구",
+      "requestStage1": "전라남도",
+      "requestStage2": "광주시"
+    },
+    {
+      "regionId": "4701200000",
+      "requestRegionId": "4701000000",
+      "administrativePrefix": "경상북도 대구시 중구",
+      "requestStage1": "경상북도",
+      "requestStage2": "대구시"
+    },
+    {
+      "regionId": "4701300000",
+      "requestRegionId": "4701000000",
+      "administrativePrefix": "경상북도 대구시 서구",
+      "requestStage1": "경상북도",
+      "requestStage2": "대구시"
+    },
+    {
+      "regionId": "4701400000",
+      "requestRegionId": "4701000000",
+      "administrativePrefix": "경상북도 대구시 남구",
+      "requestStage1": "경상북도",
+      "requestStage2": "대구시"
+    },
+    {
+      "regionId": "4701500000",
+      "requestRegionId": "4701000000",
+      "administrativePrefix": "경상북도 대구시 북구",
+      "requestStage1": "경상북도",
+      "requestStage2": "대구시"
+    },
+    {
+      "regionId": "4701600000",
+      "requestRegionId": "4701000000",
+      "administrativePrefix": "경상북도 대구시 수성구",
+      "requestStage1": "경상북도",
+      "requestStage2": "대구시"
+    },
+    {
+      "regionId": "4801100000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 중구",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4801200000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 서구",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4801300000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 동구",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4801400000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 영도구",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4801500000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 부산진",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4801600000",
+      "requestRegionId": "4801000000",
+      "administrativePrefix": "경상남도 부산시 동래구",
+      "requestStage1": "경상남도",
+      "requestStage2": "부산시"
+    },
+    {
+      "regionId": "4813100000",
+      "requestRegionId": "4813000000",
+      "administrativePrefix": "경상남도 울산시 중구",
+      "requestStage1": "경상남도",
+      "requestStage2": "울산시"
+    },
+    {
+      "regionId": "4813300000",
+      "requestRegionId": "4813000000",
+      "administrativePrefix": "경상남도 울산시 남구",
+      "requestStage1": "경상남도",
+      "requestStage2": "울산시"
+    },
+    {
+      "regionId": "4813500000",
+      "requestRegionId": "4813000000",
+      "administrativePrefix": "경상남도 울산시 동구",
+      "requestStage1": "경상남도",
+      "requestStage2": "울산시"
+    },
+    {
+      "regionId": "4813700000",
+      "requestRegionId": "4813000000",
+      "administrativePrefix": "경상남도 울산시 울주구",
+      "requestStage1": "경상남도",
+      "requestStage2": "울산시"
+    },
+    {
+      "regionId": "4815100000",
+      "requestRegionId": "4816000000",
+      "administrativePrefix": "경상남도 마산시 합포구",
+      "requestStage1": "경상남도",
+      "requestStage2": "마산시"
+    },
+    {
+      "regionId": "4815300000",
+      "requestRegionId": "4816000000",
+      "administrativePrefix": "경상남도 마산시 회원구",
+      "requestStage1": "경상남도",
+      "requestStage2": "마산시"
+    },
+    {
+      "regionId": "4111100000",
+      "requestRegionId": "4111000000",
+      "administrativePrefix": "경기도 수원시 장안구",
+      "requestStage1": "경기도",
+      "requestStage2": "수원시"
+    },
+    {
+      "regionId": "4111300000",
+      "requestRegionId": "4111000000",
+      "administrativePrefix": "경기도 수원시 권선구",
+      "requestStage1": "경기도",
+      "requestStage2": "수원시"
+    },
+    {
+      "regionId": "4111500000",
+      "requestRegionId": "4111000000",
+      "administrativePrefix": "경기도 수원시 팔달구",
+      "requestStage1": "경기도",
+      "requestStage2": "수원시"
+    },
+    {
+      "regionId": "4111700000",
+      "requestRegionId": "4111000000",
+      "administrativePrefix": "경기도 수원시 영통구",
+      "requestStage1": "경기도",
+      "requestStage2": "수원시"
+    },
+    {
+      "regionId": "4113100000",
+      "requestRegionId": "4113000000",
+      "administrativePrefix": "경기도 성남시 수정구",
+      "requestStage1": "경기도",
+      "requestStage2": "성남시"
+    },
+    {
+      "regionId": "4113300000",
+      "requestRegionId": "4113000000",
+      "administrativePrefix": "경기도 성남시 중원구",
+      "requestStage1": "경기도",
+      "requestStage2": "성남시"
+    },
+    {
+      "regionId": "4113500000",
+      "requestRegionId": "4113000000",
+      "administrativePrefix": "경기도 성남시 분당구",
+      "requestStage1": "경기도",
+      "requestStage2": "성남시"
+    },
+    {
+      "regionId": "4117100000",
+      "requestRegionId": "4117000000",
+      "administrativePrefix": "경기도 안양시 만안구",
+      "requestStage1": "경기도",
+      "requestStage2": "안양시"
+    },
+    {
+      "regionId": "4117300000",
+      "requestRegionId": "4117000000",
+      "administrativePrefix": "경기도 안양시 동안구",
+      "requestStage1": "경기도",
+      "requestStage2": "안양시"
+    },
+    {
+      "regionId": "4119200000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 원미구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119400000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 소사구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4119600000",
+      "requestRegionId": "4119000000",
+      "administrativePrefix": "경기도 부천시 오정구",
+      "requestStage1": "경기도",
+      "requestStage2": "부천시"
+    },
+    {
+      "regionId": "4127100000",
+      "requestRegionId": "4127000000",
+      "administrativePrefix": "경기도 안산시 상록구",
+      "requestStage1": "경기도",
+      "requestStage2": "안산시"
+    },
+    {
+      "regionId": "4127300000",
+      "requestRegionId": "4127000000",
+      "administrativePrefix": "경기도 안산시 단원구",
+      "requestStage1": "경기도",
+      "requestStage2": "안산시"
+    },
+    {
+      "regionId": "4128100000",
+      "requestRegionId": "4128000000",
+      "administrativePrefix": "경기도 고양시 덕양구",
+      "requestStage1": "경기도",
+      "requestStage2": "고양시"
+    },
+    {
+      "regionId": "4128500000",
+      "requestRegionId": "4128000000",
+      "administrativePrefix": "경기도 고양시 일산동구",
+      "requestStage1": "경기도",
+      "requestStage2": "고양시"
+    },
+    {
+      "regionId": "4128700000",
+      "requestRegionId": "4128000000",
+      "administrativePrefix": "경기도 고양시 일산서구",
+      "requestStage1": "경기도",
+      "requestStage2": "고양시"
+    },
+    {
+      "regionId": "4146100000",
+      "requestRegionId": "4146000000",
+      "administrativePrefix": "경기도 용인시 처인구",
+      "requestStage1": "경기도",
+      "requestStage2": "용인시"
+    },
+    {
+      "regionId": "4146300000",
+      "requestRegionId": "4146000000",
+      "administrativePrefix": "경기도 용인시 기흥구",
+      "requestStage1": "경기도",
+      "requestStage2": "용인시"
+    },
+    {
+      "regionId": "4146500000",
+      "requestRegionId": "4146000000",
+      "administrativePrefix": "경기도 용인시 수지구",
+      "requestStage1": "경기도",
+      "requestStage2": "용인시"
+    },
+    {
+      "regionId": "4159100000",
+      "requestRegionId": "4159000000",
+      "administrativePrefix": "경기도 화성시 만세구",
+      "requestStage1": "경기도",
+      "requestStage2": "화성시"
+    },
+    {
+      "regionId": "4159300000",
+      "requestRegionId": "4159000000",
+      "administrativePrefix": "경기도 화성시 효행구",
+      "requestStage1": "경기도",
+      "requestStage2": "화성시"
+    },
+    {
+      "regionId": "4159500000",
+      "requestRegionId": "4159000000",
+      "administrativePrefix": "경기도 화성시 병점구",
+      "requestStage1": "경기도",
+      "requestStage2": "화성시"
+    },
+    {
+      "regionId": "4159700000",
+      "requestRegionId": "4159000000",
+      "administrativePrefix": "경기도 화성시 동탄구",
+      "requestStage1": "경기도",
+      "requestStage2": "화성시"
+    },
+    {
+      "regionId": "4311100000",
+      "requestRegionId": "4311000000",
+      "administrativePrefix": "충청북도 청주시 상당구",
+      "requestStage1": "충청북도",
+      "requestStage2": "청주시"
+    },
+    {
+      "regionId": "4311200000",
+      "requestRegionId": "4311000000",
+      "administrativePrefix": "충청북도 청주시 서원구",
+      "requestStage1": "충청북도",
+      "requestStage2": "청주시"
+    },
+    {
+      "regionId": "4311300000",
+      "requestRegionId": "4311000000",
+      "administrativePrefix": "충청북도 청주시 흥덕구",
+      "requestStage1": "충청북도",
+      "requestStage2": "청주시"
+    },
+    {
+      "regionId": "4311400000",
+      "requestRegionId": "4311000000",
+      "administrativePrefix": "충청북도 청주시 청원구",
+      "requestStage1": "충청북도",
+      "requestStage2": "청주시"
+    },
+    {
+      "regionId": "4413100000",
+      "requestRegionId": "4413000000",
+      "administrativePrefix": "충청남도 천안시 동남구",
+      "requestStage1": "충청남도",
+      "requestStage2": "천안시"
+    },
+    {
+      "regionId": "4413300000",
+      "requestRegionId": "4413000000",
+      "administrativePrefix": "충청남도 천안시 서북구",
+      "requestStage1": "충청남도",
+      "requestStage2": "천안시"
+    },
+    {
+      "regionId": "4711100000",
+      "requestRegionId": "4711000000",
+      "administrativePrefix": "경상북도 포항시 남구",
+      "requestStage1": "경상북도",
+      "requestStage2": "포항시"
+    },
+    {
+      "regionId": "4711300000",
+      "requestRegionId": "4711000000",
+      "administrativePrefix": "경상북도 포항시 북구",
+      "requestStage1": "경상북도",
+      "requestStage2": "포항시"
+    },
+    {
+      "regionId": "4812100000",
+      "requestRegionId": "4812000000",
+      "administrativePrefix": "경상남도 창원시 의창구",
+      "requestStage1": "경상남도",
+      "requestStage2": "창원시"
+    },
+    {
+      "regionId": "4812300000",
+      "requestRegionId": "4812000000",
+      "administrativePrefix": "경상남도 창원시 성산구",
+      "requestStage1": "경상남도",
+      "requestStage2": "창원시"
+    },
+    {
+      "regionId": "4812500000",
+      "requestRegionId": "4812000000",
+      "administrativePrefix": "경상남도 창원시 마산합포구",
+      "requestStage1": "경상남도",
+      "requestStage2": "창원시"
+    },
+    {
+      "regionId": "4812700000",
+      "requestRegionId": "4812000000",
+      "administrativePrefix": "경상남도 창원시 마산회원구",
+      "requestStage1": "경상남도",
+      "requestStage2": "창원시"
+    },
+    {
+      "regionId": "4812900000",
+      "requestRegionId": "4812000000",
+      "administrativePrefix": "경상남도 창원시 진해구",
+      "requestStage1": "경상남도",
+      "requestStage2": "창원시"
+    },
+    {
+      "regionId": "5211100000",
+      "requestRegionId": "5211000000",
+      "administrativePrefix": "전북특별자치도 전주시 완산구",
+      "requestStage1": "전북특별자치도",
+      "requestStage2": "전주시"
+    },
+    {
+      "regionId": "5211300000",
+      "requestRegionId": "5211000000",
+      "administrativePrefix": "전북특별자치도 전주시 덕진구",
+      "requestStage1": "전북특별자치도",
+      "requestStage2": "전주시"
+    }
+  ]
+}

@@ -1,0 +1,910 @@
+{
+  "documentType": "NON_RUNTIME_REVIEW_WORKSHEET",
+  "referenceVersion": "eroute-disease-departments-v0.3",
+  "instructions": "This worksheet is not reference data and must never be loaded by the app. Fill evidence from actual human research; apply to a NEW immutable DRAFT reference version and validate --previous. No automatic approval. Nulls intentionally mean missing, not checked.",
+  "mappings": [
+    {
+      "mappingId": "D017-DEP024",
+      "diseaseId": "D017",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D017-DEP003",
+      "diseaseId": "D017",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D018-DEP024",
+      "diseaseId": "D018",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D018-DEP003",
+      "diseaseId": "D018",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D019-DEP024",
+      "diseaseId": "D019",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D020-DEP024",
+      "diseaseId": "D020",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D021-DEP024",
+      "diseaseId": "D021",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D022-DEP024",
+      "diseaseId": "D022",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D023-DEP024",
+      "diseaseId": "D023",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D024-DEP024",
+      "diseaseId": "D024",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D025-DEP024",
+      "diseaseId": "D025",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D026-DEP024",
+      "diseaseId": "D026",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D027-DEP024",
+      "diseaseId": "D027",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D027-DEP045",
+      "diseaseId": "D027",
+      "departmentId": "DEP045",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D028-DEP011",
+      "diseaseId": "D028",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D029-DEP011",
+      "diseaseId": "D029",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D029-DEP046",
+      "diseaseId": "D029",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D030-DEP011",
+      "diseaseId": "D030",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D030-DEP003",
+      "diseaseId": "D030",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D031-DEP011",
+      "diseaseId": "D031",
+      "departmentId": "DEP011",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D031-DEP012",
+      "diseaseId": "D031",
+      "departmentId": "DEP012",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D031-DEP045",
+      "diseaseId": "D031",
+      "departmentId": "DEP045",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D032-DEP046",
+      "diseaseId": "D032",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D033-DEP046",
+      "diseaseId": "D033",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D034-DEP046",
+      "diseaseId": "D034",
+      "departmentId": "DEP046",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D035-DEP028",
+      "diseaseId": "D035",
+      "departmentId": "DEP028",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D035-DEP003",
+      "diseaseId": "D035",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D036-DEP028",
+      "diseaseId": "D036",
+      "departmentId": "DEP028",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D037-DEP043",
+      "diseaseId": "D037",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D037-DEP024",
+      "diseaseId": "D037",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D038-DEP043",
+      "diseaseId": "D038",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D039-DEP036",
+      "diseaseId": "D039",
+      "departmentId": "DEP036",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D040-DEP036",
+      "diseaseId": "D040",
+      "departmentId": "DEP036",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D041-DEP030",
+      "diseaseId": "D041",
+      "departmentId": "DEP030",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D042-DEP030",
+      "diseaseId": "D042",
+      "departmentId": "DEP030",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D043-DEP047",
+      "diseaseId": "D043",
+      "departmentId": "DEP047",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D043-DEP003",
+      "diseaseId": "D043",
+      "departmentId": "DEP003",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D043-DEP024",
+      "diseaseId": "D043",
+      "departmentId": "DEP024",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "BROAD_PARENT_REVIEW_REQUIRED: official evidence may identify a subspecialty under internal medicine. ERoute uses broad canonical department '내과'. This relationship requires independent human approval and does not mean that every hospital with 내과 treats the disease.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D044-DEP047",
+      "diseaseId": "D044",
+      "departmentId": "DEP047",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D044-DEP012",
+      "diseaseId": "D044",
+      "departmentId": "DEP012",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D044-DEP025",
+      "diseaseId": "D044",
+      "departmentId": "DEP025",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D045-DEP013",
+      "diseaseId": "D045",
+      "departmentId": "DEP013",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    },
+    {
+      "mappingId": "D046-DEP043",
+      "diseaseId": "D046",
+      "departmentId": "DEP043",
+      "evidenceStatus": "MISSING",
+      "reviewStatus": "DRAFT",
+      "reviewNote": "REVIEW_REQUIRED: User-provided candidate only. Independent human evidence and review required. No medical validity or approval inferred.",
+      "evidenceInput": {
+        "sourceName": null,
+        "sourceUrl": null,
+        "checkedAt": null,
+        "rawDepartmentText": null,
+        "notes": null
+      },
+      "humanChecklist": {
+        "sourceRetrieved": false,
+        "directCanonicalOrBroadParentReviewed": false,
+        "clinicalScopeReviewed": false,
+        "evidenceComplete": false
+      }
+    }
+  ]
+}

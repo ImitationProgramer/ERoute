@@ -1,0 +1,53 @@
+name: Backend
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    services:
+      auth-db:
+        image: postgres:16-alpine
+        env:
+          POSTGRES_DB: eroute_auth_test
+          POSTGRES_USER: eroute
+          POSTGRES_HOST_AUTH_METHOD: trust
+        ports: ['5432:5432']
+        options: >-
+          --health-cmd "pg_isready -U eroute" --health-interval 5s --health-retries 12
+    env:
+      DB_URL: jdbc:postgresql://localhost:5432/eroute_auth_test
+      DB_USERNAME: eroute
+      DB_PASSWORD: ''
+      EROUTE_TEST_JDBC_URL: jdbc:postgresql://localhost:5432/eroute_auth_test
+      EROUTE_TEST_DB_USER: eroute
+      EROUTE_TEST_DB_PASSWORD: ''
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+          cache: maven
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify official source availability
+        run: python scripts/verify_sources.py
+      - name: Build explicit development authentication artifact
+        working-directory: services/backend
+        run: ./mvnw --batch-mode -Pdevelopment-auth -DskipTests package
+      - name: Explicit synthetic account bootstrap
+        run: |
+          python scripts/bootstrap_dev_accounts.py --environment test --initialize-local-database
+          echo "EROUTE_AUTH_TEST_KEYS=$GITHUB_WORKSPACE/.runtime/auth-test/keys.json" >> "$GITHUB_ENV"
+          echo "EROUTE_AUTH_TEST_CREDENTIALS=$GITHUB_WORKSPACE/.runtime/auth-test/credentials.json" >> "$GITHUB_ENV"
+      - name: Unit, contract and PostgreSQL integration tests
+        working-directory: services/backend
+        run: ./mvnw --batch-mode -Pdevelopment-auth verify
+      - name: Build clean production artifact and reject development classes
+        run: |
+          services/backend/mvnw -f services/backend/pom.xml --batch-mode clean package -DskipTests
+          python scripts/verify_auth_release.py --jar services/backend/target/emergency-api-0.1.0.jar --artifact-only

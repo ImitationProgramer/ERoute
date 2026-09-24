@@ -1,0 +1,522 @@
+[
+  {
+    "id": "FIRST_AID_CPR_ADULT",
+    "category": "FIRST_AID",
+    "title": "성인 심폐소생술",
+    "summary": "반응·호흡 확인과 기본소생술 순서",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "심폐소생술 (CPR)",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=3&mode=view",
+    "publicationDate": "2022-11-03",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/adult-cpr.webp",
+    "aliases": [
+      "adult-cpr"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "반응 확인",
+          "119 신고 및 AED 요청",
+          "정상 호흡 여부 확인",
+          "가슴압박: 분당 100~120회, 성인 약 5cm",
+          "교육받고 시행 가능한 경우 30:2",
+          "AED 음성안내",
+          "구급대 도착 또는 정상 반응까지 지속"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_AED",
+    "category": "FIRST_AID",
+    "title": "자동심장충격기(AED)",
+    "summary": "AED 음성 안내와 사용 시 주의",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "자동 심장충격기 (AED)",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=4&mode=view",
+    "publicationDate": "2022-11-03",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/adult-aed.webp",
+    "aliases": [
+      "adult-aed"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "전원 켜기",
+          "맨 가슴에 패드 부착",
+          "분석 중 환자 접촉 금지",
+          "충격 지시 시 모두 떨어진 것 확인",
+          "충격 후 즉시 CPR 재개",
+          "계속 음성 안내 따르기"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_CHOKING_ADULT_CHILD",
+    "category": "FIRST_AID",
+    "title": "성인·소아 기도폐쇄",
+    "summary": "말하거나 숨쉬기 어려운 기도폐쇄 상황에서 시행할 기본 응급처치입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "기도폐쇄",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=6&mode=view",
+    "publicationDate": "2022-11-09",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "WHEN",
+        "title": "이럴 때 확인하세요",
+        "items": [
+          "스스로 강하게 기침하도록 격려합니다."
+        ],
+        "intro": "환자가 기침하고 말할 수 있다면"
+      },
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "말을 못 하거나 숨을 못 쉬고, 소리 나는 기침을 못 하는 경우 빠른 처치가 필요합니다.",
+          "등 두드리기를 시행합니다.",
+          "필요하면 복부 밀어내기를 시행합니다.",
+          "이물이 나오거나 의식을 잃을 때까지 처치를 이어갑니다.",
+          "의식을 잃으면 심폐소생술을 시작합니다."
+        ],
+        "intro": "심하게 막힌 것으로 보이면"
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "보이지 않는 이물을 손가락으로 무작정 훑어내지 않습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_CHOKING_INFANT",
+    "category": "FIRST_AID",
+    "title": "영아 기도폐쇄",
+    "summary": "등 두드리기 5회·가슴 밀어내기 5회와 주의사항",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "영아 기도폐쇄 처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=20&mode=view",
+    "publicationDate": "2024-10-25",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "등 두드리기 5회",
+          "가슴 밀어내기 5회",
+          "반복",
+          "의식 소실 시 CPR"
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "보이지 않는 이물의 blind finger sweep 금지"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_BLEEDING",
+    "category": "FIRST_AID",
+    "title": "외부 출혈·지혈",
+    "summary": "외부 출혈이 있을 때 직접 압박으로 출혈을 줄이는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "지혈 처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=11&mode=view",
+    "publicationDate": "2022-11-10",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/external-bleeding.webp",
+    "aliases": [
+      "external-bleeding"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "가능하면 장갑 등으로 직접적인 혈액 접촉을 피합니다.",
+          "거즈나 깨끗한 천으로 출혈 부위를 직접 압박합니다.",
+          "붕대로 고정한 뒤에도 압박을 유지합니다.",
+          "출혈이 심하거나 멈추지 않으면 119에 도움을 요청합니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "골절이 의심되는 부위나 물체가 박힌 관통상은 무리하게 직접 압박하지 않습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_BURN",
+    "category": "FIRST_AID",
+    "title": "화상",
+    "summary": "화상 부위를 식히고 추가 손상을 줄이는 기본 응급처치입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "화상 처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=12&mode=view",
+    "publicationDate": "2022-11-10",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": "assets/illustrations/guides/thermal-burn.webp",
+    "aliases": [
+      "thermal-burn"
+    ],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "안전하게 제거할 수 있는 옷·반지 등 장신구를 제거합니다.",
+          "피부에 달라붙은 것은 억지로 떼지 않습니다.",
+          "화상 부위를 차가운 물로 식힙니다.",
+          "물집은 터뜨리지 않고 보호합니다.",
+          "넓거나 깊은 화상, 얼굴·기도 주변 화상 등 심한 화상은 119 또는 의료기관의 도움을 받습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_AMPUTATION",
+    "category": "FIRST_AID",
+    "title": "절단상",
+    "summary": "절단된 신체 부위를 적절히 보관하고 신속한 이송을 준비하는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "절단상 처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=7&mode=view",
+    "publicationDate": "2022-11-09",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "눈에 보이는 오염물을 생리식염수 등으로 조심스럽게 씻어냅니다.",
+          "생리식염수에 적셨다가 짠 거즈로 감쌉니다.",
+          "물이 들어가지 않도록 비닐봉지 등에 밀봉합니다.",
+          "차갑게 보관합니다.",
+          "환자와 절단 부위를 함께 신속하게 의료기관으로 이송할 수 있도록 119의 안내를 받습니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "절단 부위가 얼음과 직접 닿지 않도록 합니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_BEE_STING",
+    "category": "FIRST_AID",
+    "title": "벌 쏘임",
+    "summary": "벌에 쏘였을 때 침을 제거하고 전신 알레르기 반응을 확인하는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "벌 쏘임",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=8&mode=view",
+    "publicationDate": "2022-11-10",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "침이 남아 있다면 카드처럼 평평한 물체의 모서리로 밀어 제거합니다.",
+          "쏘인 부위를 씻습니다.",
+          "냉찜질로 통증과 부기를 줄입니다.",
+          "호흡곤란·청색증 등 전신반응이 나타나는지 관찰합니다."
+        ]
+      },
+      {
+        "type": "EMERGENCY",
+        "title": "119 도움이 필요할 때",
+        "items": [
+          "호흡곤란 등 아나필락시스가 의심되면 즉시 119에 신고합니다.",
+          "처방받은 에피네프린 자가주사기를 가진 환자가 도움을 요청하는 경우 사용을 도울 수 있습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_SNAKE_BITE",
+    "category": "FIRST_AID",
+    "title": "뱀 물림",
+    "summary": "뱀에 물렸을 때 움직임을 줄이고 신속하게 도움을 요청하는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "뱀 물림",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=9&mode=view",
+    "publicationDate": "2022-11-10",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "물린 자국과 환자의 상태를 확인합니다.",
+          "환자를 앉히거나 눕혀 안정시킵니다.",
+          "움직임을 최소화합니다.",
+          "119의 안내를 받습니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "독을 입으로 빨아내지 않습니다.",
+          "임의로 강하게 묶지 않습니다.",
+          "상처를 절개하지 않습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_NOSEBLEED",
+    "category": "FIRST_AID",
+    "title": "코피",
+    "summary": "코피가 날 때 올바른 자세와 압박으로 지혈하는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "코피 처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=10&mode=view",
+    "publicationDate": "2022-11-10",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "앉은 상태에서 고개를 앞으로 숙입니다.",
+          "코의 부드러운 부분을 눌러 지혈합니다.",
+          "입으로 숨을 쉽니다.",
+          "피를 삼키지 말고 입으로 뱉습니다.",
+          "출혈이 계속되거나 심하면 의료 도움을 받습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_HEAT_INJURY",
+    "category": "FIRST_AID",
+    "title": "열손상",
+    "summary": "고온 환경에서 발생한 열손상 환자의 체온을 낮추는 기본 응급처치입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "열손상",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=16&mode=view",
+    "publicationDate": "2024-08-20",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "시원하거나 그늘지고 바람이 통하는 곳으로 이동합니다.",
+          "더운 옷·모자 등 불필요한 복장을 벗깁니다.",
+          "선풍기·부채·얼음팩 등을 이용해 체온을 낮춥니다.",
+          "체온이 높거나 의식 상태가 좋지 않으면 즉시 119에 신고합니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "중증 열손상이 의심되면 음료를 억지로 먹이지 않습니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_COLD_INJURY",
+    "category": "FIRST_AID",
+    "title": "한랭손상",
+    "summary": "추위에 노출된 환자를 따뜻한 곳으로 옮기고 추가 손상을 막는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "한랭손상",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=17&mode=view",
+    "publicationDate": "2024-08-20",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": null,
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "실내 등 따뜻하고 바람을 피할 수 있는 곳으로 이동합니다.",
+          "젖거나 몸을 조이는 옷을 제거합니다.",
+          "담요 등으로 몸을 감싸 보온합니다.",
+          "반지·시계 등 조이는 물건을 제거합니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "손상된 부위를 문지르거나 마사지하지 않습니다.",
+          "술과 카페인은 피합니다."
+        ]
+      }
+    ]
+  },
+  {
+    "id": "FIRST_AID_SEIZURE",
+    "category": "FIRST_AID",
+    "title": "경련 발작",
+    "summary": "경련 중 환자가 다치지 않도록 보호하고 발작 과정을 관찰하는 방법입니다.",
+    "sourceOrganization": "소방청",
+    "sourceTitle": "경련처치",
+    "sourceUrl": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=19&mode=view",
+    "publicationDate": "2024-10-25",
+    "sourceCheckedAt": "2026-09-22",
+    "license": "KOGL_TYPE_1",
+    "latestValidation": {
+      "organization": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "sourceUrl": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publicationDate": "2026-01-29",
+      "finalModifiedDate": "2026-02-09",
+      "sourceCheckedAt": "2026-09-22",
+      "license": "KOGL_TYPE_4"
+    },
+    "contentStatus": "SOURCE_GROUNDED_DRAFT",
+    "humanReviewedAtUtc": null,
+    "thumbnailAsset": null,
+    "aliases": [],
+    "sections": [
+      {
+        "type": "ACTION_STEPS",
+        "title": "지금 해야 할 일",
+        "steps": [
+          "환자 곁에 머뭅니다.",
+          "주변의 위험한 물건을 치워 다치지 않게 합니다.",
+          "발작이 시작된 시간과 진행 과정을 관찰합니다.",
+          "발작이 끝난 뒤에도 상태가 회복되는지 관찰합니다.",
+          "필요한 경우 119의 도움을 받습니다."
+        ]
+      },
+      {
+        "type": "WARNING",
+        "title": "주의하세요",
+        "items": [
+          "몸을 억지로 붙잡거나 움직임을 강제로 막지 않습니다.",
+          "입에 물건을 억지로 넣지 않습니다."
+        ]
+      }
+    ]
+  }
+]

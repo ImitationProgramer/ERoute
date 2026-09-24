@@ -1,0 +1,160 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "id": "report-119",
+      "title": "119에 알려줄 내용",
+      "category": "actions",
+      "audience": "119 신고자",
+      "holdReason": "신고 전달사항의 누락·표현을 검토하고 있습니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "상황과 증상을 설명할 때 필요한 정보",
+      "thumbnailAsset": "assets/illustrations/guides/report-119.webp"
+    },
+    {
+      "id": "explain-location",
+      "title": "주소를 모를 때 위치 설명",
+      "category": "actions",
+      "audience": "주소를 모르는 신고자",
+      "holdReason": "위치 식별 정보와 표현의 적합성을 검토하고 있습니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "주변 건물과 표지로 장소를 알리는 방법",
+      "thumbnailAsset": "assets/illustrations/guides/explain-location.webp"
+    },
+    {
+      "id": "before-ambulance",
+      "title": "구급차가 도착하기 전",
+      "category": "actions",
+      "audience": "119 신고 후의 신고자·동행인",
+      "holdReason": "동행인 역할과 준비·인계 조건의 근거를 보완하고 있습니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S12"
+      ],
+      "summary": "현장 안내와 준비·인계에 관한 내용",
+      "thumbnailAsset": "assets/illustrations/guides/before-ambulance.webp"
+    },
+    {
+      "id": "adult-cpr",
+      "title": "성인 심폐소생술",
+      "category": "firstAid",
+      "audience": "성인 기본소생술 · 일반인 구조자",
+      "holdReason": "환자 적용 범위와 시작·종료 조건의 의료 검토가 필요합니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S03",
+        "S07"
+      ],
+      "summary": "반응·호흡 확인과 기본소생술의 범위",
+      "thumbnailAsset": "assets/illustrations/guides/adult-cpr.webp"
+    },
+    {
+      "id": "adult-aed",
+      "title": "성인 자동심장충격기(AED)",
+      "category": "firstAid",
+      "audience": "성인 기본소생술 · 일반인 구조자",
+      "holdReason": "기기별 조작과 CPR 재개·반복 조건의 의료 검토가 필요합니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S04",
+        "S07"
+      ],
+      "summary": "기기 안내와 사용 시 주의할 내용",
+      "thumbnailAsset": "assets/illustrations/guides/adult-aed.webp"
+    },
+    {
+      "id": "external-bleeding",
+      "title": "외부 출혈·상처",
+      "category": "firstAid",
+      "audience": "외부 출혈 · 적용 대상 검토 중",
+      "holdReason": "골절·관통상·심한 출혈의 예외와 최신 근거가 필요합니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S05"
+      ],
+      "summary": "상처의 범위와 주의할 상황",
+      "thumbnailAsset": "assets/illustrations/guides/external-bleeding.webp"
+    },
+    {
+      "id": "thermal-burn",
+      "title": "열에 의한 화상",
+      "category": "firstAid",
+      "audience": "열화상 · 적용 대상 검토 중",
+      "holdReason": "냉각 조건과 대상별 주의·진료 전환 기준을 확인하고 있습니다.",
+      "contentVersion": "0.1.1-review.1",
+      "sourceIds": [
+        "S06"
+      ],
+      "summary": "열 손상의 범위와 주의할 상황",
+      "thumbnailAsset": "assets/illustrations/guides/thermal-burn.webp"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S03",
+      "publisher": "소방청",
+      "title": "심폐소생술 (CPR)",
+      "url": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=3&mode=view",
+      "publishedAt": "2022-11-03",
+      "version": "2022 게시물 · 2023 이미지",
+      "checkedAt": "2026-09-16",
+      "rights": "공공누리 제1유형 · 출처표시"
+    },
+    {
+      "id": "S04",
+      "publisher": "소방청",
+      "title": "자동 심장충격기 (AED)",
+      "url": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=4&mode=view",
+      "publishedAt": "2022-11-03",
+      "version": "2022 게시물 · 2023 이미지",
+      "checkedAt": "2026-09-16",
+      "rights": "공공누리 제1유형 · 출처표시"
+    },
+    {
+      "id": "S05",
+      "publisher": "소방청",
+      "title": "지혈 처치",
+      "url": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=11&mode=view",
+      "publishedAt": "2022-11-10",
+      "version": "2022 게시물 · 2023 이미지",
+      "checkedAt": "2026-09-16",
+      "rights": "공공누리 제1유형 · 출처표시"
+    },
+    {
+      "id": "S06",
+      "publisher": "소방청",
+      "title": "화상 처치",
+      "url": "https://www.nfa.go.kr/nfa/safetyinfo/lifesafety/0001/?boardId=bbs_0000000000002462&cntId=12&mode=view",
+      "publishedAt": "2022-11-10",
+      "version": "2022 게시물 · 2023 이미지",
+      "checkedAt": "2026-09-16",
+      "rights": "공공누리 제1유형 · 출처표시"
+    },
+    {
+      "id": "S07",
+      "publisher": "질병관리청",
+      "title": "2025년 한국 심폐소생술 가이드라인",
+      "url": "https://www.kdca.go.kr/bbs/kdca/49/309908/artclView.do",
+      "publishedAt": "2026-01-29",
+      "version": "260209 · 정오표 1차(2026-02-09)",
+      "checkedAt": "2026-09-16",
+      "rights": "공공누리 제4유형 · 비교 열람만, 본문·도해 미수록"
+    },
+    {
+      "id": "S12",
+      "publisher": "정책브리핑 · 정책기자단 원규희",
+      "title": "잘 신고하고 길 터주면, 우리도 119 대원",
+      "url": "https://www.korea.kr/briefing/policyBriefingView.do?newsId=148849782",
+      "publishedAt": "2018-05-13",
+      "version": "2018-05-13 게시물",
+      "checkedAt": "2026-09-16",
+      "rights": "텍스트에 한하여 공공누리 제1유형 · 사진 제외"
+    }
+  ]
+}

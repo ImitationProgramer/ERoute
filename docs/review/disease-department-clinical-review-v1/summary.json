@@ -1,0 +1,33 @@
+{
+  "TOTAL": 61,
+  "PENDING": 61,
+  "APPROVED": 0,
+  "HOLD": 0,
+  "REJECTED": 0,
+  "EXACT_CANONICAL": {
+    "TOTAL": 36,
+    "PENDING": 36,
+    "APPROVED": 0,
+    "HOLD": 0,
+    "REJECTED": 0
+  },
+  "BROAD_PARENT": {
+    "TOTAL": 25,
+    "PENDING": 25,
+    "APPROVED": 0,
+    "HOLD": 0,
+    "REJECTED": 0
+  },
+  "breadth": {
+    "NARROW": 0,
+    "MODERATE": 0,
+    "VERY_BROAD": 0,
+    "UNASSESSED": 61
+  },
+  "risk": {
+    "LOW": 0,
+    "MEDIUM": 0,
+    "HIGH": 0,
+    "UNASSESSED": 61
+  }
+}

@@ -1,0 +1,2141 @@
+{
+  "schemaVersion": 2,
+  "datasetVersion": "eroute-disease-departments-v0.5",
+  "catalogVersion": "diseases-v2",
+  "vocabularyVersion": "departments-v1",
+  "purpose": "HOSPITAL_DEPARTMENT_PERSONALIZATION",
+  "purposeVersion": "map-disease-use-v2",
+  "status": "READY",
+  "publicMapApproved": false,
+  "diseases": [
+    {
+      "id": "D001",
+      "displayName": "천식",
+      "aliases": [
+        "기관지천식",
+        "asthma"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D002",
+      "displayName": "만성폐쇄성폐질환",
+      "aliases": [
+        "COPD",
+        "만성 폐쇄성 폐질환"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D003",
+      "displayName": "고혈압",
+      "aliases": [
+        "본태성고혈압",
+        "hypertension"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D004",
+      "displayName": "심방세동",
+      "aliases": [
+        "심방 세동",
+        "AF",
+        "atrial fibrillation"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D005",
+      "displayName": "심부전",
+      "aliases": [
+        "heart failure"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D006",
+      "displayName": "협심증",
+      "aliases": [
+        "angina",
+        "angina pectoris"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D007",
+      "displayName": "갑상선기능항진증",
+      "aliases": [
+        "갑상선 기능 항진증",
+        "hyperthyroidism"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D008",
+      "displayName": "갑상선기능저하증",
+      "aliases": [
+        "갑상선 기능 저하증",
+        "hypothyroidism"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D009",
+      "displayName": "만성 신부전",
+      "aliases": [
+        "만성신부전",
+        "chronic renal failure"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D010",
+      "displayName": "뇌전증",
+      "aliases": [
+        "간질",
+        "epilepsy"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D011",
+      "displayName": "파킨슨병",
+      "aliases": [
+        "Parkinson's disease"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D012",
+      "displayName": "아토피성 피부염",
+      "aliases": [
+        "아토피",
+        "아토피피부염"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D013",
+      "displayName": "두드러기",
+      "aliases": [
+        "urticaria"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D014",
+      "displayName": "간경변증",
+      "aliases": [
+        "간경변",
+        "간경화",
+        "liver cirrhosis"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D015",
+      "displayName": "크론병",
+      "aliases": [
+        "Crohn병",
+        "Crohn's disease"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D016",
+      "displayName": "궤양성 대장염",
+      "aliases": [
+        "ulcerative colitis",
+        "UC"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D017",
+      "displayName": "당뇨병",
+      "aliases": [
+        "당뇨"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D018",
+      "displayName": "이상지질혈증",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D019",
+      "displayName": "만성 B형간염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D020",
+      "displayName": "만성 C형간염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D021",
+      "displayName": "지방간",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D022",
+      "displayName": "기관지확장증",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D023",
+      "displayName": "특발성 폐섬유화증",
+      "aliases": [
+        "IPF"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D024",
+      "displayName": "류마티스 관절염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D025",
+      "displayName": "전신성 홍반성 루푸스",
+      "aliases": [
+        "루푸스",
+        "SLE"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D026",
+      "displayName": "통풍",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D027",
+      "displayName": "강직성 척추염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D028",
+      "displayName": "다발성 경화증",
+      "aliases": [
+        "MS"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D029",
+      "displayName": "알츠하이머병",
+      "aliases": [
+        "알츠하이머"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D030",
+      "displayName": "편두통",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D031",
+      "displayName": "뇌경색",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D032",
+      "displayName": "우울증",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D033",
+      "displayName": "양극성 장애",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D034",
+      "displayName": "조현병",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D035",
+      "displayName": "양성 전립선 비대증",
+      "aliases": [
+        "전립선비대증",
+        "BPH"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D036",
+      "displayName": "요로결석",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D037",
+      "displayName": "알레르기 비염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D038",
+      "displayName": "만성 부비동염",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D039",
+      "displayName": "녹내장",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D040",
+      "displayName": "백내장",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D041",
+      "displayName": "자궁내막증",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D042",
+      "displayName": "다낭성 난소 증후군",
+      "aliases": [
+        "PCOS"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D043",
+      "displayName": "골다공증",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D044",
+      "displayName": "요추 추간판 탈출증",
+      "aliases": [
+        "허리디스크"
+      ],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D045",
+      "displayName": "건선",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    },
+    {
+      "id": "D046",
+      "displayName": "메니에르병",
+      "aliases": [],
+      "category": "기저질환",
+      "active": true,
+      "lifecycleStatus": "ACTIVE",
+      "version": 1
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEP003",
+      "canonicalName": "가정의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP018",
+      "canonicalName": "결핵과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP019",
+      "canonicalName": "구강내과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP020",
+      "canonicalName": "구강병리과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP021",
+      "canonicalName": "구강악안면방사선과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP022",
+      "canonicalName": "구강악안면외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP023",
+      "canonicalName": "구강안면외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP024",
+      "canonicalName": "내과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP025",
+      "canonicalName": "마취통증의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP026",
+      "canonicalName": "방사선종양학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP027",
+      "canonicalName": "병리과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP028",
+      "canonicalName": "비뇨의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP029",
+      "canonicalName": "사상체질과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP030",
+      "canonicalName": "산부인과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP031",
+      "canonicalName": "산업의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP032",
+      "canonicalName": "성형외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP033",
+      "canonicalName": "소아청소년과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP034",
+      "canonicalName": "소아치과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP011",
+      "canonicalName": "신경과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP012",
+      "canonicalName": "신경외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP035",
+      "canonicalName": "심장혈관흉부외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP036",
+      "canonicalName": "안과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP037",
+      "canonicalName": "영상의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP038",
+      "canonicalName": "영상치의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP039",
+      "canonicalName": "예방의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP040",
+      "canonicalName": "예방치과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP041",
+      "canonicalName": "외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP042",
+      "canonicalName": "응급의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP043",
+      "canonicalName": "이비인후과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP044",
+      "canonicalName": "작업환경의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP045",
+      "canonicalName": "재활의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP046",
+      "canonicalName": "정신건강의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP047",
+      "canonicalName": "정형외과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP048",
+      "canonicalName": "진단검사의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP049",
+      "canonicalName": "치과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP050",
+      "canonicalName": "치과교정과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP051",
+      "canonicalName": "치과보존과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP052",
+      "canonicalName": "치과보철과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP053",
+      "canonicalName": "치료방사선과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP054",
+      "canonicalName": "치주과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP055",
+      "canonicalName": "침구과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP056",
+      "canonicalName": "통합치의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP013",
+      "canonicalName": "피부과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP057",
+      "canonicalName": "한방내과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP058",
+      "canonicalName": "한방부인과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP059",
+      "canonicalName": "한방소아과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP060",
+      "canonicalName": "한방신경정신과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP061",
+      "canonicalName": "한방안이비인후피부과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP062",
+      "canonicalName": "한방재활의학과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP063",
+      "canonicalName": "해부병리과",
+      "active": true,
+      "version": 1
+    },
+    {
+      "id": "DEP064",
+      "canonicalName": "핵의학과",
+      "active": true,
+      "version": 1
+    }
+  ],
+  "mappings": [
+    {
+      "id": "D017-DEP024",
+      "diseaseId": "D017",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31596",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과, 신ㆍ췌장이식외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D017-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D017-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D017-DEP003",
+      "diseaseId": "D017",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31596",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과, 신ㆍ췌장이식외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D017-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D018-DEP024",
+      "diseaseId": "D018",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31326",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D018-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D018-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D018-DEP003",
+      "diseaseId": "D018",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31326",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D018-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D019-DEP024",
+      "diseaseId": "D019",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31680",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과, 간이식ㆍ간담도외과, 소아소화기영양과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D019-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D019-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D020-DEP024",
+      "diseaseId": "D020",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31682",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D020-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D020-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D021-DEP024",
+      "diseaseId": "D021",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31685",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과, 노년내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D021-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D021-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D022-DEP024",
+      "diseaseId": "D022",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31814",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 호흡기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D022-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 호흡기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D022-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D023-DEP024",
+      "diseaseId": "D023",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32186",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 호흡기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D023-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 호흡기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D023-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D024-DEP024",
+      "diseaseId": "D024",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30822",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "류마티스내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D024-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D024-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D025-DEP024",
+      "diseaseId": "D025",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30802",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신장내과, 소아신장과, 류마티스내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 신장내과, 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D025-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 신장내과, 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D025-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D026-DEP024",
+      "diseaseId": "D026",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30832",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "류마티스내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D026-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D026-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D027-DEP024",
+      "diseaseId": "D027",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30824",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "재활의학과, 류마티스내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D027-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 류마티스내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D027-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D027-DEP045",
+      "diseaseId": "D027",
+      "departmentId": "DEP045",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30824",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "재활의학과, 류마티스내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '재활의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D027-DEP045. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D028-DEP011",
+      "diseaseId": "D028",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32005",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D028-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D029-DEP011",
+      "diseaseId": "D029",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31999",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 정신건강의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D029-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D029-DEP046",
+      "diseaseId": "D029",
+      "departmentId": "DEP046",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31999",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 정신건강의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정신건강의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D029-DEP046. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D030-DEP011",
+      "diseaseId": "D030",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31876",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D030-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D030-DEP003",
+      "diseaseId": "D030",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31876",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D030-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D031-DEP011",
+      "diseaseId": "D031",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 신경외과, 재활의학과, 정신건강의학과, 소아신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D031-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D031-DEP012",
+      "diseaseId": "D031",
+      "departmentId": "DEP012",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 신경외과, 재활의학과, 정신건강의학과, 소아신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경외과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D031-DEP012. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D031-DEP045",
+      "diseaseId": "D031",
+      "departmentId": "DEP045",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31996",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 신경외과, 재활의학과, 정신건강의학과, 소아신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '재활의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D031-DEP045. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D032-DEP046",
+      "diseaseId": "D032",
+      "departmentId": "DEP046",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31581",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "정신건강의학과, 소아정신건강의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정신건강의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D032-DEP046. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D033-DEP046",
+      "diseaseId": "D033",
+      "departmentId": "DEP046",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31580",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "정신건강의학과, 소아정신건강의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정신건강의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D033-DEP046. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D034-DEP046",
+      "diseaseId": "D034",
+      "departmentId": "DEP046",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31578",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "정신건강의학과, 소아정신건강의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정신건강의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D034-DEP046. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D035-DEP028",
+      "diseaseId": "D035",
+      "departmentId": "DEP028",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30607",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 비뇨의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '비뇨의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D035-DEP028. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D035-DEP003",
+      "diseaseId": "D035",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30607",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 비뇨의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D035-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D036-DEP028",
+      "diseaseId": "D036",
+      "departmentId": "DEP028",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32209",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "비뇨의학과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '비뇨의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D036-DEP028. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D037-DEP043",
+      "diseaseId": "D037",
+      "departmentId": "DEP043",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31516",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "이비인후과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '이비인후과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D037-DEP043. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D037-DEP024",
+      "diseaseId": "D037",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31516",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "이비인후과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D037-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D037-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D038-DEP043",
+      "diseaseId": "D038",
+      "departmentId": "DEP043",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31964",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "이비인후과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '이비인후과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D038-DEP043. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D039-DEP036",
+      "diseaseId": "D039",
+      "departmentId": "DEP036",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31152",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "안과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '안과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D039-DEP036. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D040-DEP036",
+      "diseaseId": "D040",
+      "departmentId": "DEP036",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31147",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "안과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '안과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D040-DEP036. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D041-DEP030",
+      "diseaseId": "D041",
+      "departmentId": "DEP030",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31828",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "산부인과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '산부인과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D041-DEP030. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D042-DEP030",
+      "diseaseId": "D042",
+      "departmentId": "DEP030",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31833",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "산부인과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '산부인과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D042-DEP030. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D043-DEP047",
+      "diseaseId": "D043",
+      "departmentId": "DEP047",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31611",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정형외과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D043-DEP047. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D043-DEP003",
+      "diseaseId": "D043",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31611",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D043-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D043-DEP024",
+      "diseaseId": "D043",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31611",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 노년내과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D043-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D043-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "D044-DEP047",
+      "diseaseId": "D044",
+      "departmentId": "DEP047",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32556",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "마취통증의학과, 신경외과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '정형외과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D044-DEP047. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D044-DEP012",
+      "diseaseId": "D044",
+      "departmentId": "DEP012",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32556",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "마취통증의학과, 신경외과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경외과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D044-DEP012. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D044-DEP025",
+      "diseaseId": "D044",
+      "departmentId": "DEP025",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32556",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "마취통증의학과, 신경외과, 정형외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '마취통증의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D044-DEP025. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D045-DEP013",
+      "diseaseId": "D045",
+      "departmentId": "DEP013",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31548",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "피부과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '피부과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D045-DEP013. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "D046-DEP043",
+      "diseaseId": "D046",
+      "departmentId": "DEP043",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32438",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "이비인후과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '이비인후과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=D046-DEP043. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D001-DEP024",
+      "diseaseId": "D001",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31811",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 호흡기내과, 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D001-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 호흡기내과, 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D001-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D002-DEP024",
+      "diseaseId": "D002",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31528",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 호흡기내과, 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D002-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 호흡기내과, 알레르기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D002-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D003-DEP024",
+      "diseaseId": "D003",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울대학교병원 순환기내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IMC/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "순환기내과",
+          "notes": "서울대학교병원 순환기내과 공식 소개에서 해당 질환(고혈압/심방세동/심부전/협심증)을 진료 범위로 확인. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DEPARTMENT_SERVICE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D003-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D003-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D003-DEP003",
+      "diseaseId": "D003",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31322",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 심장내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D003-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D004-DEP024",
+      "diseaseId": "D004",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울대학교병원 순환기내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IMC/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "순환기내과",
+          "notes": "서울대학교병원 순환기내과 공식 소개에서 해당 질환(고혈압/심방세동/심부전/협심증)을 진료 범위로 확인. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DEPARTMENT_SERVICE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D004-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D004-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D005-DEP024",
+      "diseaseId": "D005",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울대학교병원 순환기내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IMC/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "순환기내과",
+          "notes": "서울대학교병원 순환기내과 공식 소개에서 해당 질환(고혈압/심방세동/심부전/협심증)을 진료 범위로 확인. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DEPARTMENT_SERVICE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D005-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D005-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D006-DEP024",
+      "diseaseId": "D006",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울대학교병원 순환기내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IMC/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "순환기내과",
+          "notes": "서울대학교병원 순환기내과 공식 소개에서 해당 질환(고혈압/심방세동/심부전/협심증)을 진료 범위로 확인. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DEPARTMENT_SERVICE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D006-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 순환기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D006-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D007-DEP024",
+      "diseaseId": "D007",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32287",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 내분비외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D007-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D007-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D007-DEP003",
+      "diseaseId": "D007",
+      "departmentId": "DEP003",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=32287",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "가정의학과, 내분비내과, 내분비외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '가정의학과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D007-DEP003. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D008-DEP024",
+      "diseaseId": "D008",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30863",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "내분비내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D008-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 내분비내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D008-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D009-DEP024",
+      "diseaseId": "D009",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31973",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신장내과, 소아청소년심장과, 신ㆍ췌장이식외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 신장내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D009-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 신장내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D009-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D010-DEP011",
+      "diseaseId": "D010",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30519",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과, 신경외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D010-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D011-DEP011",
+      "diseaseId": "D011",
+      "departmentId": "DEP011",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31983",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "신경과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '신경과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D011-DEP011. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D012-DEP013",
+      "diseaseId": "D012",
+      "departmentId": "DEP013",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31519",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "피부과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '피부과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D012-DEP013. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D013-DEP013",
+      "diseaseId": "D013",
+      "departmentId": "DEP013",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31797",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "피부과, 알레르기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 질환 페이지의 진료과 원문에 ERoute canonical '피부과'가 직접 명시되어 EXACT_CANONICAL 후보로 분류한다. 실제 진료/수용 가능성 또는 추천을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D013-DEP013. This records user source review, not MEDICAL_APPROVAL or production approval."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "EXACT_CANONICAL"
+    },
+    {
+      "id": "V04-D014-DEP024",
+      "diseaseId": "D014",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=30480",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과, 간이식ㆍ간담도외과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D014-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D014-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D015-DEP024",
+      "diseaseId": "D015",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31397",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과, 대장항문외과, 소아소화기영양과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D015-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D015-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    },
+    {
+      "id": "V04-D016-DEP024",
+      "diseaseId": "D016",
+      "departmentId": "DEP024",
+      "relationType": "DIRECT",
+      "reviewStatus": "DRAFT",
+      "evidence": [
+        {
+          "sourceName": "서울아산병원 질환백과",
+          "sourceUrl": "https://www.amc.seoul.kr/asan/healthinfo/disease/diseaseDetail.do?contentId=31691",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "소화기내과",
+          "notes": "서울아산병원 공식 질환백과의 '진료과' 원문을 기록. humanCheckedAtUtc/checkedAt은 사용자의 실제 검토 후에만 채워야 함. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=diseaseEvidence; sourceType=OFFICIAL_DISEASE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D016-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        },
+        {
+          "sourceName": "서울대학교병원 내과",
+          "sourceUrl": "https://www.snuh.org/m/reservation/meddept/IM/mainIntro.do",
+          "checkedAt": "2026-09-19T05:47:57Z",
+          "rawDepartmentText": "호흡기내과, 순환기내과, 소화기내과, 혈액종양내과, 내분비내과, 알레르기내과, 신장내과, 감염내과, 류마티스내과",
+          "notes": "서울대학교병원 공식 내과 소개가 위 세부 진료과들을 내과의 9개 분과로 명시한다. 이 근거는 세부 내과→ERoute broad canonical '내과' crosswalk만 지원하며, 어떤 병원에 '내과'가 있다는 사실만으로 해당 세부과·질환 진료 또는 현재 수용 가능성을 보장하지 않는다. 공식 자료에서 소화기내과 관련성을 확인하고, 서울대학교병원 내과 조직 근거로 broad '내과' crosswalk을 제안한다. 의료적 적합성·추천·현재 진료/수용 가능성을 의미하지 않는다. Evidence role=parentStructureEvidence; sourceType=OFFICIAL_DEPARTMENT_STRUCTURE_PAGE; HUMAN_SOURCE_REVIEW batch=2026-09-19T05:47:57Z; matrixSha256=309eacdbb321c63883ee88ef589a35e78fdd80454c87ff3f66874ed41a874eee; mappingId=V04-D016-DEP024. This records user source review, not MEDICAL_APPROVAL or production approval. 세부 내과 → ERoute broad 내과 crosswalk을 사용자 source batch review에서 검수한 관계. 내과 존재가 실제 질환 진료 가능성을 보장하지 않음. 현재 환자 수용 가능성을 의미하지 않음. 추천/적합성 점수가 아님."
+        }
+      ],
+      "approval": null,
+      "version": 2,
+      "mappingScope": "BROAD_PARENT"
+    }
+  ],
+  "departmentAliases": [],
+  "broadDepartmentNames": [
+    "내과",
+    "외과",
+    "소아청소년과"
+  ]
+}

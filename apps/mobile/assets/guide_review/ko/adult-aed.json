@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "id": "adult-aed",
+  "title": "성인 자동심장충격기(AED)",
+  "audience": "성인 기본소생술 · 일반인 구조자",
+  "contentVersion": "0.1.1-review.1",
+  "rightsStatus": "KOGL1_TEXT_ADAPTATION",
+  "sourceVersionRefs": {
+    "S04": "2022 게시물 · 2023 이미지",
+    "S07": "260209 · 정오표 1차(2026-02-09)"
+  },
+  "content": {
+    "applicability": [
+      {
+        "heading": "적용 대상 검토",
+        "text": "성인 기본소생술에서 AED를 사용하는 내용의 부분 원고입니다. 환자 적용 조건은 아직 확정되지 않았습니다.",
+        "evidence": [
+          "S04 · AED 순서 / 시작·대상 조건 미기재"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "heading": "전원과 패드",
+        "text": "전원을 켜고 패드 부착 부위의 옷을 벗긴 뒤 안내에 따라 패드를 붙이세요. 물기가 있으면 제거하세요.",
+        "evidence": [
+          "S04 · 1 전원 켜고 패드 부착"
+        ]
+      },
+      {
+        "heading": "분석 중 접촉 금지",
+        "text": "리듬을 분석하는 동안 주위 사람들에게 물러나도록 알리고 환자에게 손대지 마세요.",
+        "evidence": [
+          "S04 · 2 심장리듬 자동분석"
+        ]
+      },
+      {
+        "heading": "충격 단계의 안전",
+        "text": "충격을 가하는 동안 환자와 접촉하지 않도록 모두에게 알리세요.",
+        "evidence": [
+          "S04 · 3 심장 전기충격"
+        ]
+      },
+      {
+        "heading": "심폐소생술 다시 시작",
+        "text": "충격 후에는 지체하지 않고 가슴압박을 다시 시행하는 내용입니다.",
+        "evidence": [
+          "S04 · 4 심폐소생술 재시행"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "heading": "기기 차이 검토",
+        "text": "모든 AED가 같은 충격버튼을 사용하는 것으로 안내하지 않습니다. 이 원고는 기기 음성 안내와 함께 검토해야 합니다.",
+        "evidence": [
+          "S04 ↔ S07 · 인쇄쪽 81~82 비교에서 보완 필요"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "heading": "이 부분 원고의 한계",
+        "text": "이 부분 원고에는 재분석 시점·충격 불필요 안내 후 행동·회복·인계에 관한 완전한 안내가 포함되어 있지 않습니다.",
+        "evidence": [
+          "S04 · 5주기 문구 ↔ S07 인쇄쪽 57·82 비교"
+        ]
+      }
+    ]
+  },
+  "unresolved": [
+    "소생술 전문가: S04의 “CPR 5주기와 AED 반복”을 가슴압박만 하는 사용자에게 일반화할 수 없음. 2분 재분석과 기기 안내를 반영할 최종 문장 검토(S07 인쇄쪽 57, 82).",
+    "소생술 전문가: 완전자동/반자동 기기의 조작 구분, 충격 불필요 분기의 CPR 재개, 구급대 도착/정상 회복 시 조치 확인.",
+    "소생술 전문가: 적용 연령·체격·패드 위치와 옷/속옷 제거의 필요 범위를 검토(S07 인쇄쪽 82~84, 284). 도해는 번들에 넣지 않음.",
+    "콘텐츠 권리 검토자: S04 제1유형 부분 원고는 재사용 가능. 추가 문장·도해는 제4유형 가공이 아닌 이용 가능한 별도 근거로 해결."
+  ],
+  "review": {
+    "evidenceStatus": "PENDING",
+    "medicalReviewStatus": "PENDING",
+    "medicalReviewer": null,
+    "medicalReviewedAt": null,
+    "publicationStatus": "PENDING",
+    "publicationApprovedBy": null,
+    "publicationApprovedAt": null,
+    "approvedContentHash": null,
+    "permissionStatus": "NOT_REQUIRED_WITHIN_KOGL1",
+    "permissionGrantedBy": null,
+    "permissionGrantedAt": null
+  }
+}

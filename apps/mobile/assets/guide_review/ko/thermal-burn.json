@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "thermal-burn",
+  "title": "열에 의한 화상",
+  "audience": "열화상 · 적용 대상 검토 중",
+  "contentVersion": "0.1.1-review.1",
+  "rightsStatus": "KOGL1_TEXT_ADAPTATION",
+  "sourceVersionRefs": {
+    "S06": "2022 게시물 · 2023 이미지"
+  },
+  "content": {
+    "applicability": [
+      {
+        "heading": "열화상으로 한정해 검토",
+        "text": "열에 의한 화상을 위한 부분 원고입니다. 화학·전기 화상에 같은 절차를 적용하는 안내는 포함하지 않습니다.",
+        "evidence": [
+          "ERoute 요구사항 · 열화상 한정 / S06 대상 세분화 미기재"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "heading": "옷과 장식물",
+        "text": "화상 부위의 옷과 반지 등 장식물을 제거하는 내용입니다. 피부에 들러붙었다면 억지로 떼지 마세요.",
+        "evidence": [
+          "S06 · 1 제거 및 들러붙은 경우 예외"
+        ]
+      },
+      {
+        "heading": "물로 식히기",
+        "text": "화상 부위를 차가운 물로 식히는 내용입니다. 적용 시간·물 온도·넓이별 조건은 아직 검토 중입니다.",
+        "evidence": [
+          "S06 · 2 냉수 / 시간·온도 미기재"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "heading": "물집 보호",
+        "text": "물집은 터뜨리지 않고 그대로 두세요.",
+        "evidence": [
+          "S06 · 2 냉수의 물집 주의"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "heading": "이 부분 원고의 한계",
+        "text": "이 부분 원고에는 냉각 종료·진료 전환 조건이 포함되어 있지 않습니다.",
+        "evidence": [
+          "S06 · 종료·진료 기준 미기재"
+        ]
+      }
+    ]
+  },
+  "unresolved": [
+    "화상/응급처치 전문가: “차가운 물”의 온도·시간·흐르는 물 여부와 냉각 종료 조건을 검토할 최신 근거 필요. 원문에 없는 수치 생성 안 함.",
+    "화상/응급처치 전문가: 넓은 범위·깊은 손상·취약 연령·저체온 위험·특수 부위·진료 전환 기준과 의복 제거 범위 확인.",
+    "근거 검토자: S07 제10장에는 열화상 처치 절차가 없어 최신성 검증에 사용하지 않음. 별도 공식 근거 확보 필요."
+  ],
+  "review": {
+    "evidenceStatus": "PENDING",
+    "medicalReviewStatus": "PENDING",
+    "medicalReviewer": null,
+    "medicalReviewedAt": null,
+    "publicationStatus": "PENDING",
+    "publicationApprovedBy": null,
+    "publicationApprovedAt": null,
+    "approvedContentHash": null,
+    "permissionStatus": "NOT_REQUIRED_WITHIN_KOGL1",
+    "permissionGrantedBy": null,
+    "permissionGrantedAt": null
+  }
+}

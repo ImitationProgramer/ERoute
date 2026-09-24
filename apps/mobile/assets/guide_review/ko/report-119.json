@@ -1,0 +1,73 @@
+{
+  "schemaVersion": 1,
+  "id": "report-119",
+  "title": "119에 알려줄 내용",
+  "audience": "119 신고자",
+  "contentVersion": "0.1.1-review.1",
+  "rightsStatus": "KOGL1_TEXT_ADAPTATION",
+  "sourceVersionRefs": {
+    "S12": "2018-05-13 게시물"
+  },
+  "content": {
+    "applicability": [
+      {
+        "heading": "안내 범위",
+        "text": "119에 상황을 설명할 때 참고할 정보의 부분 원고입니다. 통화를 끝내는 별도 규칙은 다루지 않습니다.",
+        "evidence": [
+          "S12 · 119 신고 전화 팁 / 응급 환자가 생겼을 때"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "heading": "발생 시점과 상태",
+        "text": "언제 상황이 시작됐는지, 환자가 어떻게 아픈지 설명하세요. 의식과 호흡이 있는지도 알려주세요.",
+        "evidence": [
+          "S12 · 응급 환자가 생겼을 때 1~2항"
+        ]
+      },
+      {
+        "heading": "알고 있는 병력과 약",
+        "text": "평소 앓는 병이나 복용하는 약을 알고 있다면 함께 말하세요.",
+        "evidence": [
+          "S12 · 응급 환자가 생겼을 때 3항"
+        ]
+      },
+      {
+        "heading": "통화 안내 듣기",
+        "text": "곧바로 전화를 끊지 말고 접수자의 안내를 들으세요.",
+        "evidence": [
+          "S12 · 응급 환자가 생겼을 때 4항"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "heading": "앱이 대신 전달하지 않아요",
+        "text": "이 화면은 정보를 입력하거나 전송하는 기능이 아닙니다.",
+        "evidence": [
+          "ERoute 요구사항 · 수집·자동 전송 없음"
+        ]
+      }
+    ],
+    "ending": []
+  },
+  "unresolved": [
+    "소방청 119구급과: “상태를 모두 확인한 뒤 신고”로 오해되지 않도록 첫 신고 시점 문구 확정. 독서·입력 완료를 선행조건으로 두지 않음.",
+    "소방청 119구급과/권리 담당자: 환자 발생·정확한 위치·예비 연락처 항목은 S01에 있으나 S01 이용표시 미확정. 이 원고에는 해당 문장을 복제하지 않음. 제1유형 대체 근거 또는 허용 범위 필요.",
+    "신고 안내 검토자: S12는 통화 안내를 계속 듣는 범위만 제공하므로 별도 종료 규칙은 이번 원고에 추가하지 않음. 정보 정정 안내의 필요 범위와 2018년 기사의 현재 신고 절차 적합성은 확인 필요."
+  ],
+  "review": {
+    "evidenceStatus": "PENDING",
+    "medicalReviewStatus": "PENDING",
+    "medicalReviewer": null,
+    "medicalReviewedAt": null,
+    "publicationStatus": "PENDING",
+    "publicationApprovedBy": null,
+    "publicationApprovedAt": null,
+    "approvedContentHash": null,
+    "permissionStatus": "NOT_REQUIRED_WITHIN_KOGL1",
+    "permissionGrantedBy": null,
+    "permissionGrantedAt": null
+  }
+}

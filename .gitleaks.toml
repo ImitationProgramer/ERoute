@@ -1,0 +1,16 @@
+title = "ERoute publication scan"
+
+[extend]
+useDefault = true
+
+[[rules]]
+id = "eroute-nmc-key"
+description = "NMC service key embedded in configuration or request URL"
+regex = '''(?i)(?:NMC_SERVICE_KEY|serviceKey)["' \t]*[:=]["' \t]*([A-Za-z0-9%+/=_-]{24,})'''
+secretGroup = 1
+
+[[rules]]
+id = "eroute-auth-key-material"
+description = "Serialized authentication/encryption key material"
+regex = '''"(?:v[0-9]+|credential)"\s*:\s*"([A-Za-z0-9_+/=-]{40,})"'''
+secretGroup = 1

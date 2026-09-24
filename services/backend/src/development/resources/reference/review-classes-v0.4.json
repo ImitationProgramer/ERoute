@@ -1,0 +1,249 @@
+{
+  "referenceVersion": "eroute-disease-departments-v0.4",
+  "mappings": [
+    {
+      "mappingId": "V04-D001-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D002-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D003-DEP003",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D003-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D004-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D005-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D006-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D007-DEP003",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D007-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D008-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D009-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D010-DEP011",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D011-DEP011",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D012-DEP013",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D013-DEP013",
+      "reviewClass": "EXACT_CANONICAL_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D014-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D015-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "V04-D016-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D017-DEP003",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D017-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D018-DEP003",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D018-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D019-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D020-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D021-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D022-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D023-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D024-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D025-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D026-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D027-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D027-DEP045",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D028-DEP011",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D029-DEP011",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D029-DEP046",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D030-DEP003",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D030-DEP011",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP011",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP012",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D031-DEP045",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D032-DEP046",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D033-DEP046",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D034-DEP046",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D035-DEP003",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D035-DEP028",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D036-DEP028",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D037-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D037-DEP043",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D038-DEP043",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D039-DEP036",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D040-DEP036",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D041-DEP030",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D042-DEP030",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP003",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP024",
+      "reviewClass": "BROAD_PARENT_REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D043-DEP047",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP012",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP025",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D044-DEP047",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D045-DEP013",
+      "reviewClass": "REVIEW_REQUIRED"
+    },
+    {
+      "mappingId": "D046-DEP043",
+      "reviewClass": "REVIEW_REQUIRED"
+    }
+  ]
+}

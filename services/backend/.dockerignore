@@ -1,0 +1,18 @@
+# Send only Dockerfile build inputs to the daemon, never local credentials/data.
+**
+!Dockerfile
+!.dockerignore
+!.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.properties
+!mvnw
+!pom.xml
+!src/
+!src/**
+**/.env
+**/.env.*
+**/*.pem
+**/*.key
+**/keys.json
+**/credentials.json
+**/*.log

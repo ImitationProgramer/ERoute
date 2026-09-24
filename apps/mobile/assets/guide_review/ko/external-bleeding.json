@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "external-bleeding",
+  "title": "외부 출혈·상처",
+  "audience": "외부 출혈 · 적용 대상 검토 중",
+  "contentVersion": "0.1.1-review.1",
+  "rightsStatus": "KOGL1_TEXT_ADAPTATION",
+  "sourceVersionRefs": {
+    "S05": "2022 게시물 · 2023 이미지"
+  },
+  "content": {
+    "applicability": [
+      {
+        "heading": "적용 범위 검토",
+        "text": "외부 출혈 안내의 부분 원고입니다. 원문은 직접 압박에서 골절 부위와 관통상을 제외하지만 대체 절차를 제시하지 않습니다.",
+        "evidence": [
+          "S05 · 1 직접 압박 괄호 조건"
+        ]
+      }
+    ],
+    "steps": [
+      {
+        "heading": "직접 압박",
+        "text": "장갑을 낀 손과 거즈를 이용해 압박하는 방법입니다. 골절 부위나 관통상은 이 원문의 직접 압박 안내 대상에서 제외됩니다.",
+        "evidence": [
+          "S05 · 1 직접 압박"
+        ]
+      },
+      {
+        "heading": "붕대와 압박 유지",
+        "text": "붕대로 감고 반창고로 고정하면서 직접 압박을 지속하는 내용입니다.",
+        "evidence": [
+          "S05 · 2 붕대 감기"
+        ]
+      }
+    ],
+    "warnings": [
+      {
+        "heading": "예외 상황의 절차 미확정",
+        "text": "골절·관통상·박힌 물체·심한 출혈을 이 짧은 원고로 판단하거나 같은 방법으로 대체해서는 안 됩니다.",
+        "evidence": [
+          "S05 · 예외 명시 및 추가 처치 미기재"
+        ]
+      }
+    ],
+    "ending": [
+      {
+        "heading": "이 부분 원고의 한계",
+        "text": "이 부분 원고에는 압박을 끝내거나 추가 도움으로 전환할 조건이 포함되어 있지 않습니다.",
+        "evidence": [
+          "S05 · 종료·전환 조건 미기재"
+        ]
+      }
+    ]
+  },
+  "unresolved": [
+    "외상/응급처치 전문가: S05의 “손상 부위를 심장보다 높게 올리기”의 현재 권고와 적용 예외 확인. 일괄 필수 단계로 채택하지 않아 원고 단계에서 제외.",
+    "외상/응급처치 전문가: 골절·관통상·박힌 물체, 지속/심한 출혈, 지혈대 사용의 조건과 일반인 v1 지원 범위 확정.",
+    "근거 검토자: S07 제10장 인쇄쪽 491~502에는 외부 출혈 절차가 없음. 최신 일반인 공식 근거 확보가 필요하며 2025판 대조 완료로 기록하지 않음."
+  ],
+  "review": {
+    "evidenceStatus": "PENDING",
+    "medicalReviewStatus": "PENDING",
+    "medicalReviewer": null,
+    "medicalReviewedAt": null,
+    "publicationStatus": "PENDING",
+    "publicationApprovedBy": null,
+    "publicationApprovedAt": null,
+    "approvedContentHash": null,
+    "permissionStatus": "NOT_REQUIRED_WITHIN_KOGL1",
+    "permissionGrantedBy": null,
+    "permissionGrantedAt": null
+  }
+}

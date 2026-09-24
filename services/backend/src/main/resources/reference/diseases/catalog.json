@@ -1,0 +1,471 @@
+{
+  "catalogVersion": "eroute-disease-catalog-v1",
+  "categories": [
+    {
+      "id": "CAT_CARDIOVASCULAR",
+      "name": "심혈관",
+      "sortOrder": 10
+    },
+    {
+      "id": "CAT_RESPIRATORY",
+      "name": "호흡기",
+      "sortOrder": 20
+    },
+    {
+      "id": "CAT_ENDOCRINE_METABOLIC",
+      "name": "내분비·대사",
+      "sortOrder": 30
+    },
+    {
+      "id": "CAT_RENAL",
+      "name": "신장",
+      "sortOrder": 40
+    },
+    {
+      "id": "CAT_GI_LIVER",
+      "name": "소화기·간",
+      "sortOrder": 50
+    },
+    {
+      "id": "CAT_RHEUM_IMMUNE",
+      "name": "류마티스·자가면역",
+      "sortOrder": 60
+    },
+    {
+      "id": "CAT_NEURO",
+      "name": "신경계",
+      "sortOrder": 70
+    },
+    {
+      "id": "CAT_MENTAL",
+      "name": "정신건강",
+      "sortOrder": 80
+    },
+    {
+      "id": "CAT_DERM_ALLERGY",
+      "name": "피부·알레르기",
+      "sortOrder": 90
+    },
+    {
+      "id": "CAT_ENT",
+      "name": "이비인후",
+      "sortOrder": 100
+    },
+    {
+      "id": "CAT_OPHTHALMOLOGY",
+      "name": "안과",
+      "sortOrder": 110
+    },
+    {
+      "id": "CAT_UROLOGY",
+      "name": "비뇨기",
+      "sortOrder": 120
+    },
+    {
+      "id": "CAT_OBGYN",
+      "name": "여성질환",
+      "sortOrder": 130
+    },
+    {
+      "id": "CAT_MSK_REHAB",
+      "name": "근골격·재활",
+      "sortOrder": 140
+    }
+  ],
+  "diseases": [
+    {
+      "id": "D001",
+      "canonicalName": "천식",
+      "categoryId": "CAT_RESPIRATORY",
+      "aliases": [
+        "기관지천식",
+        "asthma"
+      ],
+      "active": true
+    },
+    {
+      "id": "D002",
+      "canonicalName": "만성폐쇄성폐질환",
+      "categoryId": "CAT_RESPIRATORY",
+      "aliases": [
+        "COPD",
+        "만성 폐쇄성 폐질환"
+      ],
+      "active": true
+    },
+    {
+      "id": "D003",
+      "canonicalName": "고혈압",
+      "categoryId": "CAT_CARDIOVASCULAR",
+      "aliases": [
+        "본태성고혈압",
+        "hypertension"
+      ],
+      "active": true
+    },
+    {
+      "id": "D004",
+      "canonicalName": "심방세동",
+      "categoryId": "CAT_CARDIOVASCULAR",
+      "aliases": [
+        "심방 세동",
+        "AF",
+        "atrial fibrillation"
+      ],
+      "active": true
+    },
+    {
+      "id": "D005",
+      "canonicalName": "심부전",
+      "categoryId": "CAT_CARDIOVASCULAR",
+      "aliases": [
+        "heart failure"
+      ],
+      "active": true
+    },
+    {
+      "id": "D006",
+      "canonicalName": "협심증",
+      "categoryId": "CAT_CARDIOVASCULAR",
+      "aliases": [
+        "angina",
+        "angina pectoris"
+      ],
+      "active": true
+    },
+    {
+      "id": "D007",
+      "canonicalName": "갑상선기능항진증",
+      "categoryId": "CAT_ENDOCRINE_METABOLIC",
+      "aliases": [
+        "갑상선 기능 항진증",
+        "hyperthyroidism"
+      ],
+      "active": true
+    },
+    {
+      "id": "D008",
+      "canonicalName": "갑상선기능저하증",
+      "categoryId": "CAT_ENDOCRINE_METABOLIC",
+      "aliases": [
+        "갑상선 기능 저하증",
+        "hypothyroidism"
+      ],
+      "active": true
+    },
+    {
+      "id": "D009",
+      "canonicalName": "만성 신부전",
+      "categoryId": "CAT_RENAL",
+      "aliases": [
+        "만성신부전",
+        "chronic renal failure"
+      ],
+      "active": true
+    },
+    {
+      "id": "D010",
+      "canonicalName": "뇌전증",
+      "categoryId": "CAT_NEURO",
+      "aliases": [
+        "간질",
+        "epilepsy"
+      ],
+      "active": true
+    },
+    {
+      "id": "D011",
+      "canonicalName": "파킨슨병",
+      "categoryId": "CAT_NEURO",
+      "aliases": [
+        "Parkinson's disease"
+      ],
+      "active": true
+    },
+    {
+      "id": "D012",
+      "canonicalName": "아토피성 피부염",
+      "categoryId": "CAT_DERM_ALLERGY",
+      "aliases": [
+        "아토피",
+        "아토피피부염"
+      ],
+      "active": true
+    },
+    {
+      "id": "D013",
+      "canonicalName": "두드러기",
+      "categoryId": "CAT_DERM_ALLERGY",
+      "aliases": [
+        "urticaria"
+      ],
+      "active": true
+    },
+    {
+      "id": "D014",
+      "canonicalName": "간경변증",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [
+        "간경변",
+        "간경화",
+        "liver cirrhosis"
+      ],
+      "active": true
+    },
+    {
+      "id": "D015",
+      "canonicalName": "크론병",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [
+        "Crohn병",
+        "Crohn's disease"
+      ],
+      "active": true
+    },
+    {
+      "id": "D016",
+      "canonicalName": "궤양성 대장염",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [
+        "ulcerative colitis",
+        "UC"
+      ],
+      "active": true
+    },
+    {
+      "id": "D017",
+      "canonicalName": "당뇨병",
+      "categoryId": "CAT_ENDOCRINE_METABOLIC",
+      "aliases": [
+        "당뇨"
+      ],
+      "active": true
+    },
+    {
+      "id": "D018",
+      "canonicalName": "이상지질혈증",
+      "categoryId": "CAT_ENDOCRINE_METABOLIC",
+      "aliases": [
+        "고지혈증"
+      ],
+      "active": true
+    },
+    {
+      "id": "D019",
+      "canonicalName": "만성 B형간염",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D020",
+      "canonicalName": "만성 C형간염",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D021",
+      "canonicalName": "지방간",
+      "categoryId": "CAT_GI_LIVER",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D022",
+      "canonicalName": "기관지확장증",
+      "categoryId": "CAT_RESPIRATORY",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D023",
+      "canonicalName": "특발성 폐섬유화증",
+      "categoryId": "CAT_RESPIRATORY",
+      "aliases": [
+        "IPF"
+      ],
+      "active": true
+    },
+    {
+      "id": "D024",
+      "canonicalName": "류마티스 관절염",
+      "categoryId": "CAT_RHEUM_IMMUNE",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D025",
+      "canonicalName": "전신성 홍반성 루푸스",
+      "categoryId": "CAT_RHEUM_IMMUNE",
+      "aliases": [
+        "루푸스",
+        "SLE"
+      ],
+      "active": true
+    },
+    {
+      "id": "D026",
+      "canonicalName": "통풍",
+      "categoryId": "CAT_RHEUM_IMMUNE",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D027",
+      "canonicalName": "강직성 척추염",
+      "categoryId": "CAT_RHEUM_IMMUNE",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D028",
+      "canonicalName": "다발성 경화증",
+      "categoryId": "CAT_NEURO",
+      "aliases": [
+        "MS"
+      ],
+      "active": true
+    },
+    {
+      "id": "D029",
+      "canonicalName": "알츠하이머병",
+      "categoryId": "CAT_NEURO",
+      "aliases": [
+        "알츠하이머"
+      ],
+      "active": true
+    },
+    {
+      "id": "D030",
+      "canonicalName": "편두통",
+      "categoryId": "CAT_NEURO",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D031",
+      "canonicalName": "뇌경색",
+      "categoryId": "CAT_NEURO",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D032",
+      "canonicalName": "우울증",
+      "categoryId": "CAT_MENTAL",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D033",
+      "canonicalName": "양극성 장애",
+      "categoryId": "CAT_MENTAL",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D034",
+      "canonicalName": "조현병",
+      "categoryId": "CAT_MENTAL",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D035",
+      "canonicalName": "양성 전립선 비대증",
+      "categoryId": "CAT_UROLOGY",
+      "aliases": [
+        "전립선비대증",
+        "BPH"
+      ],
+      "active": true
+    },
+    {
+      "id": "D036",
+      "canonicalName": "요로결석",
+      "categoryId": "CAT_UROLOGY",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D037",
+      "canonicalName": "알레르기 비염",
+      "categoryId": "CAT_ENT",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D038",
+      "canonicalName": "만성 부비동염",
+      "categoryId": "CAT_ENT",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D039",
+      "canonicalName": "녹내장",
+      "categoryId": "CAT_OPHTHALMOLOGY",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D040",
+      "canonicalName": "백내장",
+      "categoryId": "CAT_OPHTHALMOLOGY",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D041",
+      "canonicalName": "자궁내막증",
+      "categoryId": "CAT_OBGYN",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D042",
+      "canonicalName": "다낭성 난소 증후군",
+      "categoryId": "CAT_OBGYN",
+      "aliases": [
+        "PCOS"
+      ],
+      "active": true
+    },
+    {
+      "id": "D043",
+      "canonicalName": "골다공증",
+      "categoryId": "CAT_MSK_REHAB",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D044",
+      "canonicalName": "요추 추간판 탈출증",
+      "categoryId": "CAT_MSK_REHAB",
+      "aliases": [
+        "허리디스크"
+      ],
+      "active": true
+    },
+    {
+      "id": "D045",
+      "canonicalName": "건선",
+      "categoryId": "CAT_DERM_ALLERGY",
+      "aliases": [],
+      "active": true
+    },
+    {
+      "id": "D046",
+      "canonicalName": "메니에르병",
+      "categoryId": "CAT_ENT",
+      "aliases": [],
+      "active": true
+    }
+  ],
+  "quickPickDiseaseIds": [
+    "D003",
+    "D017",
+    "D001"
+  ]
+}

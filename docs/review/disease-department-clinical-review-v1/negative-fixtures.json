@@ -1,0 +1,20 @@
+{
+  "purpose": "Validator test patches only. Not medical decisions. Applied to temporary copies by the test runner; never to review.json.",
+  "cases": [
+    {"name": "approved_without_reviewer", "base": "TEST_ONLY_APPROVED", "review": {"reviewer": null}, "error": "APPROVED requires reviewer"},
+    {"name": "rejected_without_reason", "base": "PENDING", "review": {"decision": "REJECTED"}, "error": "REJECTED requires reason"},
+    {"name": "hold_without_reason", "base": "PENDING", "review": {"decision": "HOLD"}, "error": "HOLD requires reason"},
+    {"name": "high_risk_approved", "base": "TEST_ONLY_APPROVED", "review": {"userMisinterpretationRisk": "HIGH"}, "error": "HIGH risk cannot be APPROVED"},
+    {"name": "very_broad_parent_without_justification", "base": "TEST_ONLY_APPROVED", "review": {"matchingBreadth": "VERY_BROAD"}, "error": "VERY_BROAD BROAD_PARENT requires broadApprovalJustification"},
+    {"name": "unknown_decision", "base": "PENDING", "review": {"decision": "AUTO_APPROVED"}, "error": "unknown decision enum"},
+    {"name": "unknown_breadth", "base": "PENDING", "review": {"matchingBreadth": "BROAD"}, "error": "unknown matchingBreadth enum"},
+    {"name": "unknown_risk", "base": "PENDING", "review": {"userMisinterpretationRisk": "SAFE"}, "error": "unknown userMisinterpretationRisk enum"},
+    {"name": "changed_mapping_id", "base": "PENDING", "row": {"mappingId": "TEST_ONLY_UNKNOWN_MAPPING"}, "error": "Unknown mappingId"},
+    {"name": "missing_parent_evidence", "base": "TEST_ONLY_APPROVED", "row": {"parentEvidence": null}, "error": "immutable field changed: parentEvidence"},
+    {"name": "approved_without_role", "base": "TEST_ONLY_APPROVED", "review": {"reviewerRole": null}, "error": "APPROVED requires reviewerRole"},
+    {"name": "approved_without_timestamp", "base": "TEST_ONLY_APPROVED", "review": {"reviewedAtUtc": null}, "error": "APPROVED requires reviewedAtUtc"},
+    {"name": "approved_without_breadth", "base": "TEST_ONLY_APPROVED", "review": {"matchingBreadth": null}, "error": "APPROVED requires matchingBreadth"},
+    {"name": "approved_without_risk", "base": "TEST_ONLY_APPROVED", "review": {"userMisinterpretationRisk": null}, "error": "APPROVED requires userMisinterpretationRisk"},
+    {"name": "approved_without_reason", "base": "TEST_ONLY_APPROVED", "review": {"reason": null}, "error": "APPROVED requires reason"}
+  ]
+}

@@ -1,0 +1,428 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "const": 2
+    },
+    "datasetVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "catalogVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "vocabularyVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purpose": {
+      "type": "string",
+      "minLength": 1
+    },
+    "purposeVersion": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "const": "READY"
+    },
+    "publicMapApproved": {
+      "type": "boolean"
+    },
+    "diseases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Disease"
+      },
+      "minItems": 1
+    },
+    "departments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Department"
+      },
+      "minItems": 1
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/Mapping"
+      }
+    },
+    "departmentAliases": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/DepartmentAlias"
+      }
+    },
+    "broadDepartmentNames": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "datasetVersion",
+    "catalogVersion",
+    "vocabularyVersion",
+    "purpose",
+    "purposeVersion",
+    "status",
+    "publicMapApproved",
+    "diseases",
+    "departments",
+    "mappings",
+    "departmentAliases",
+    "broadDepartmentNames"
+  ],
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://eroute.invalid/schema/disease-reference-v2",
+  "$defs": {
+    "Evidence": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "sourceName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "sourceUrl": {
+          "type": "string",
+          "format": "uri"
+        },
+        "checkedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "rawDepartmentText": {
+          "type": "string",
+          "minLength": 1
+        },
+        "notes": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "sourceName",
+        "sourceUrl",
+        "checkedAt",
+        "rawDepartmentText",
+        "notes"
+      ]
+    },
+    "Approval": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "reviewer": {
+          "type": "string",
+          "minLength": 1
+        },
+        "approvedAt": {
+          "type": "string",
+          "format": "date-time"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "reviewer",
+        "approvedAt",
+        "version"
+      ]
+    },
+    "Disease": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "displayName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "aliases": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          }
+        },
+        "category": {
+          "type": "string",
+          "minLength": 1
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "lifecycleStatus": {
+          "enum": [
+            "ACTIVE",
+            "INACTIVE",
+            "RETIRED"
+          ]
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "id",
+        "displayName",
+        "aliases",
+        "category",
+        "active",
+        "lifecycleStatus",
+        "version"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "lifecycleStatus": {
+                "const": "ACTIVE"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "active": {
+                "const": true
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "active": {
+                "const": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    "Department": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "canonicalName": {
+          "type": "string",
+          "minLength": 1
+        },
+        "active": {
+          "type": "boolean"
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "id",
+        "canonicalName",
+        "active",
+        "version"
+      ]
+    },
+    "Mapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "diseaseId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "departmentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "relationType": {
+          "enum": [
+            "DIRECT",
+            "CONTEXTUAL",
+            "REVIEW_REQUIRED"
+          ]
+        },
+        "reviewStatus": {
+          "enum": [
+            "DRAFT",
+            "APPROVED",
+            "REJECTED",
+            "RETIRED"
+          ]
+        },
+        "evidence": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/Evidence"
+          }
+        },
+        "approval": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Approval"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "mappingScope": {
+          "enum": [
+            "EXACT_CANONICAL",
+            "BROAD_PARENT",
+            null
+          ],
+          "description": "Relationship scope, independent of approval and presentation. Omitted/null is unclassified."
+        }
+      },
+      "required": [
+        "id",
+        "diseaseId",
+        "departmentId",
+        "relationType",
+        "reviewStatus",
+        "evidence",
+        "approval",
+        "version"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "reviewStatus": {
+                "const": "APPROVED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "approval": {
+                "$ref": "#/$defs/Approval"
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "$ref": "#/$defs/Evidence"
+                },
+                "minItems": 1
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "approval": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "DepartmentAlias": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "alias": {
+          "type": "string",
+          "minLength": 1
+        },
+        "departmentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "reviewStatus": {
+          "enum": [
+            "DRAFT",
+            "APPROVED",
+            "REJECTED",
+            "RETIRED"
+          ]
+        },
+        "evidence": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Evidence"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "approval": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Approval"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "version": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "required": [
+        "alias",
+        "departmentId",
+        "reviewStatus",
+        "evidence",
+        "approval",
+        "version"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "reviewStatus": {
+                "const": "APPROVED"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "approval": {
+                "$ref": "#/$defs/Approval"
+              },
+              "evidence": {
+                "$ref": "#/$defs/Evidence"
+              }
+            }
+          },
+          "else": {
+            "properties": {
+              "approval": {
+                "type": "null"
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "description": "Structural authoring aid. ReferenceValidator additionally enforces identity, canonical uniqueness, references and approval/version transitions. No medical approval is implied."
+}
