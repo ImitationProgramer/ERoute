@@ -1,0 +1,72 @@
+[
+  {
+    "file": "home-android.png",
+    "source": "docs/qa/emergency-personalization-ios-2026-09-22/android-home.png",
+    "captured_on": "2026-09-22",
+    "description": "Android QA · 홈, 개인 데이터 없음",
+    "sha256": "9ccb5be4c9355b3db43a0b910f75925a80245d65371d7023bd0e6ff1e9fe72fd"
+  },
+  {
+    "file": "home-ios.png",
+    "source": "docs/qa/emergency-personalization-ios-2026-09-22/ios-home.png",
+    "captured_on": "2026-09-22",
+    "description": "iOS Simulator QA · 홈, 개인 데이터 없음",
+    "sha256": "3b56616a4f640757a22b76d1e8a36b68055f0a33da01317b65e431f7d2dfaaa5"
+  },
+  {
+    "file": "guide-list.png",
+    "source": "docs/qa/emergency-personalization-ios-2026-09-22/android-guide.png",
+    "captured_on": "2026-09-22",
+    "description": "Android QA · 공개 가이드 목록",
+    "sha256": "ace59166da31bc0c91636f140cdbfa5572f1171c0a7382e413593d31e3fa03c3"
+  },
+  {
+    "file": "hospital-map.png",
+    "source": "docs/qa/hospital-personalization-detail-2026-09-22/android/map-off.png",
+    "captured_on": "2026-09-22",
+    "description": "Android 에뮬레이터 · 서울 중심 지도, 개인화 OFF, 공개 병원 정보; clustering 적용 전 캡처",
+    "sha256": "a1b2c10f4c4cc8a5b9b443add5c06a3232cea4a70de7db4cd6a109ee4ccad92c"
+  },
+  {
+    "file": "hospital-detail.png",
+    "source": "docs/qa/hospital-personalization-detail-2026-09-22/android/detail-ordinary-missing-beds.png",
+    "captured_on": "2026-09-22",
+    "description": "Android 에뮬레이터 · 공개 병원 주소/대표전화/병상 미제공 표시, 개인 건강정보 없음",
+    "sha256": "66a9db87b2dc4a375becf25b72603d811e4add65fc85f4e36b036ba4d8aa6393"
+  },
+  {
+    "file": "hospital-hours.png",
+    "source": "docs/qa/hospital-personalization-detail-2026-09-22/android/detail-hours.png",
+    "captured_on": "2026-09-22",
+    "description": "Android 에뮬레이터 · 공개 병원 진료과/시간, 개인 건강정보 없음",
+    "sha256": "c74ea7e39f2fe94489ea8b60b2c235ab973e45c57c7517433cc034f314ac404d"
+  },
+  {
+    "file": "health-light.png",
+    "source": "docs/qa/emergency-finish-2026-09-22/health-light-412-100.png",
+    "captured_on": "2026-09-22",
+    "description": "Android Preview QA · 합성 건강정보, 412dp/100%",
+    "sha256": "4606ed386246f02f5521d5d8afa474cc793862ce4d8b9ae3fa268ed82ed2987a"
+  },
+  {
+    "file": "health-dark.png",
+    "source": "docs/qa/emergency-finish-2026-09-22/health-dark-412-100.png",
+    "captured_on": "2026-09-22",
+    "description": "Android Preview QA · 합성 건강정보, 412dp/100%",
+    "sha256": "af1b4ea31933a37efac41030f84e6338448dafd4e82e04c502ab2a2c0c626c64"
+  },
+  {
+    "file": "guide-reader.png",
+    "source": "docs/qa/emergency-finish-2026-09-22/guide-light-412-100.png",
+    "captured_on": "2026-09-22",
+    "description": "Android Preview QA · 가이드 상세, 412dp/100%",
+    "sha256": "6c361dde2740a2386dd8d779743f15e79214b81bc3cd81050ee676247681b931"
+  },
+  {
+    "file": "guide-large-dark.png",
+    "source": "docs/qa/emergency-finish-2026-09-22/guide-dark-320-200.png",
+    "captured_on": "2026-09-22",
+    "description": "Android Preview QA · 가이드 상세, 320dp/200%",
+    "sha256": "b515ce63ac26bf717165b2789b7e428b25de248f8cae6fe5516716996486b1f0"
+  }
+]
